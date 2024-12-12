@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
-import Logo from "../../../public/air-borne.png";
+import Logo from "../../assets/icons/air-borne.png";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

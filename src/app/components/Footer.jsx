@@ -1,17 +1,21 @@
 "use client";
-
+import Image from "next/image";
 import Link from "next/link";
+import Logo from "../../assets/icons/air-borne.png";
 
 const Footer = () => {
   return (
     <footer className="bg-white border-t border-gray-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8">
-          {/* Address Section */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div>
-            <div className="mb-4">
-              <div className="h-10 w-10 bg-black rounded-full"></div>
-            </div>
+            <Link href="/" className="flex mb-4">
+              <Image
+                className="w-auto h-8 lg:h-10"
+                src={Logo}
+                alt="Airborne Exports Logo"
+              />
+            </Link>
             <address className="not-italic text-sm text-gray-700">
               6-VRC Complex, Near Shakti mall, Khanpar Road, Jasdan, Dist -
               Rajkot, Guj. (360050) INDIA
@@ -103,27 +107,6 @@ const Footer = () => {
                 <Link href="#">Contact Us</Link>
               </li>
             </ul>
-          </div>
-
-          {/* Newsletter */}
-          <div>
-            <h3 className="text-lg font-semibold mb-4">Newsletter</h3>
-            <p className="text-sm text-gray-700 mb-4">
-              Subscribe to our weekly Newsletter and receive updates via email.
-            </p>
-            <form className="flex items-center">
-              <input
-                type="email"
-                placeholder="Enter your email..."
-                className="w-full px-4 py-2 border rounded-l-md focus:outline-none"
-              />
-              <button
-                type="submit"
-                className="bg-gray-700 text-white px-4 py-2 rounded-full hover:bg-gray-800"
-              >
-                GO
-              </button>
-            </form>
           </div>
         </div>
 

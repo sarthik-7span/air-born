@@ -71,3 +71,19 @@ body {
 .Product__slider .slick-next::before {
   background-image: url(../assets/icons/right-arrow.svg);
 }
+@media screen and (max-width: 1024px) {
+  .Product__slider .slick-next {
+    right: 44%;
+  }
+  .Product__slider .slick-prev {
+    left: 44%;
+  }
+}
+@media screen and (max-width: 575px) {
+  .Product__slider .slick-next {
+    right: 38%;
+  }
+  .Product__slider .slick-prev {
+    left: 38%;
+  }
+}

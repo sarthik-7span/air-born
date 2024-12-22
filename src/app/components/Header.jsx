@@ -4,9 +4,11 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
 import Logo from "../../assets/icons/air-borne.png";
+import { usePathname } from "next/navigation";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const currentPath = usePathname(); // Use usePathname hook for current route
 
   return (
     <header className="bg-white shadow-md">
@@ -61,45 +63,65 @@ const Header = () => {
           <div className="hidden lg:flex lg:items-center lg:ml-auto lg:space-x-10">
             <Link
               href="/"
-              className="text-base p-1 border-b border-black font-bold text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
+              className={`text-base p-1 font-bold transition-all duration-200 ${currentPath === "/"
+                ? "border-b-2 border-blue-600 !font-bold text-blue-600"
+                : "border-black text-black hover:text-blue-600 focus:text-blue-600"
+                }`}
             >
               Home
             </Link>
             <Link
               href="/products"
-              className="text-base p-1 font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
+              className={`text-base p-1 font-medium transition-all duration-200 ${currentPath === "/products"
+                ? "border-b-2 border-blue-600 !font-bold text-blue-600"
+                : "border-black text-black hover:text-blue-600 focus:text-blue-600"
+                }`}
             >
               Products
             </Link>
             <Link
               href="/contact-us"
-              className="text-base p-1 font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
+              className={`text-base p-1 font-medium transition-all duration-200 ${currentPath === "/contact-us"
+                ? "border-b-2 border-blue-600 !font-bold text-blue-600"
+                : "border-black text-black hover:text-blue-600 focus:text-blue-600"
+                }`}
             >
               Contact us
             </Link>
           </div>
         </nav>
 
-        {/* xs to lg */}
         {isMenuOpen && (
           <nav className="absolute left-0 right-0 top-16 pt-4 mb-6 pb-6 bg-white border border-gray-200 shadow-md lg:hidden">
             <div className="flow-root">
               <div className="flex flex-col px-6 -my-2 space-y-1">
                 <Link
                   href="/"
-                  className="inline-flex py-2 text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
+                  onClick={() => setIsMenuOpen(false)}
+                  className={`text-base p-1 font-medium transition-all duration-200 ${currentPath === "/"
+                    ? "text-blue-600 !font-bold"
+                    : "border-black text-black hover:text-blue-600 focus:text-blue-600"
+                    }`}
                 >
                   Home
                 </Link>
                 <Link
                   href="/products"
-                  className="inline-flex py-2 text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
+                  onClick={() => setIsMenuOpen(false)}
+                  className={`text-base p-1 font-medium transition-all duration-200 ${currentPath === "/products"
+                    ? "text-blue-600 !font-bold"
+                    : "border-black text-black hover:text-blue-600 focus:text-blue-600"
+                    }`}
                 >
                   Products
                 </Link>
                 <Link
                   href="/contact-us"
-                  className="inline-flex py-2 text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"
+                  onClick={() => setIsMenuOpen(false)}
+                  className={`text-base p-1 font-medium transition-all duration-200 ${currentPath === "/contact-us"
+                    ? "text-blue-600 !font-bold"
+                    : "border-black text-black hover:text-blue-600 focus:text-blue-600"
+                    }`}
                 >
                   Contact us
                 </Link>

@@ -35,9 +35,9 @@ export default function Home() {
   ];
   return (
     <main>
-      <div className="bg-[url('../assets/images/agriculture.jpg')] bg-no-repeat bg-cover bg-center py-56">
+      <div className="bg-[url('../assets/images/agriculture.jpg')] bg-no-repeat bg-cover bg-center py-20 lg:py-56">
         <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
-          <div className="md:w-1/2 text-white">
+          <div className="md:w-2/3 xl:w-1/2 text-white">
             <h1 className="text-4xl lg:text-8xl">
               Textline Here
             </h1>
@@ -48,18 +48,18 @@ export default function Home() {
         </div>
       </div>
       <div className="py-20">
-        <div className="text-center mb-20 space-y-3">
-          <h2 className="text-3xl font-bold">Product Range</h2>
+        <div className="text-center mb-10 md:mb-20 space-y-3">
+          <h2 className="text-3xl md:text-5xl font-bold">Product Range</h2>
           <p className="text-gray-600 mt-2">Authentic products, crafted for the world authentic products, crafted for the world authentic products, crafted for the world</p>
         </div>
         <SlickSlider />
       </div>
-      <div className="relative bg-[url('../assets/images/shiping.jpg')] bg-no-repeat bg-cover bg-center before:absolute before:inset-0 before:bg-black/5 before:backdrop-blur-sm py-40">
+      <div className="relative bg-[url('../assets/images/shiping.jpg')] bg-no-repeat bg-cover bg-center before:absolute before:inset-0 before:bg-black/5 before:backdrop-blur-sm py-11 lg:py-40">
         <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8 text-center relative z-10 text-white">
-          <h3 className="text-3xl lg:text-7xl">
+          <h3 className="text-3xl sm:text-4xl lg:text-7xl">
             Import and export business
           </h3>
-          <div className="space-y-3 mt-6">
+          <div className="space-y-3 mt-6 text-sm lg:text-base">
             <p>
               At Airborne Export, we take pride in being a leading merchant-based exporter, delivering the best of India's diverse and high-quality products to customers around the globe. With a deep understanding of India's rich cultural heritage and market, we source and export a wide range of products that meet international standards. From agricultural produce and spices to textiles and handicrafts, our extensive network ensures that we bring the finest Indian goods to the world.
               products that meet international standards. From agricultural produce and spices to textiles and handicrafts, our extensive network ensures that we bring the finest Indian goods to the world.
@@ -73,8 +73,8 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="px-4 mx-auto max-w-7xl py-16 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-2 gap-11 px-32">
+      <div className="px-4 mx-auto max-w-7xl py-11 md:py-16 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-11 lg:px-32">
           {cardData.map((item, index) => (
             <InfoCard
               key={index}

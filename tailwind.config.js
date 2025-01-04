@@ -12,6 +12,9 @@ module.exports = {
         foreground: "var(--foreground)",
         'primary': '#094aa4',
       },
+      backgroundSize: {
+        '100-auto': '100% auto',
+      },
     },
   },
   plugins: [],

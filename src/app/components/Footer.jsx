@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import Logo from "../../assets/icons/air-borne.png";
+import Logo from "../../../public/assets/icons/air-borne.png";
 
 const Footer = () => {
   return (

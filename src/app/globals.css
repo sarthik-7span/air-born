@@ -23,6 +23,7 @@ body {
 body {
   background-color: #f5f5ff;
 }
+
 .wrapper {
   padding: 70px 0;
   overflow-x: hidden;
@@ -40,12 +41,15 @@ body {
   top: auto;
   bottom: -60px;
 }
+
 .Product__slider .slick-next {
   right: 47%;
 }
+
 .Product__slider .slick-prev {
   left: 47%;
 }
+
 /* .slick-slide {
   transition: transform 0.5s ease; 
 }
@@ -59,30 +63,81 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 8px;
-  background-color: #094aa4;
+  background-color: #534240;
   display: block;
   border-radius: 100%;
   width: 100%;
   height: 100%;
+  opacity: 0.9;
 }
+
 .Product__slider .slick-prev::before {
-  background-image: url(../assets/icons/left-arrow.svg);
+  background-image: url(../../public/assets/icons/left-arrow.svg);
 }
+
 .Product__slider .slick-next::before {
-  background-image: url(../assets/icons/right-arrow.svg);
+  background-image: url(../../public/assets/icons/right-arrow.svg);
 }
+
+/* .brand__slider .slick-slide.slick-active.slick-center.slick-current + .slick-slide.slick-active img{
+  height: 160px;
+  transform: scale(1.3);
+} */
+
+.brand__slider .slick-prev::before,
+.brand__slider .slick-next::before {
+  content: "";
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 8px;
+  background-color: #534240;
+  display: block;
+  border-radius: 100%;
+  opacity: 0.9;
+  z-index: 105;
+  width: 30px;
+  height: 30px;
+  position: relative;
+}
+
+.brand__slider .slick-prev::before {
+  background-image: url(../../public/assets/icons/left-arrow.svg);
+}
+
+.brand__slider .slick-next::before {
+  background-image: url(../../public/assets/icons/right-arrow.svg);
+}
+
+.brand__slider .slick-track {
+  display: flex;
+  gap: 20px;
+}
+
+.brand__slider .slick-prev {
+  left: 4%;
+  z-index: 100;
+}
+
+.brand__slider .slick-next {
+  right: 4%;
+  z-index: 100;
+}
+
 @media screen and (max-width: 1024px) {
   .Product__slider .slick-next {
     right: 44%;
   }
+
   .Product__slider .slick-prev {
     left: 44%;
   }
 }
+
 @media screen and (max-width: 575px) {
   .Product__slider .slick-next {
     right: 38%;
   }
+
   .Product__slider .slick-prev {
     left: 38%;
   }

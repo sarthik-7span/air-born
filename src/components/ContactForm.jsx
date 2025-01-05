@@ -1,6 +1,7 @@
 import React from "react";
 
-const ContactForm = ({ inqueryFor }) => {
+const ContactForm = ({ inquiryFor }) => {
+
   return (
     <div className="px-4 mx-auto max-w-7xl py-10 md:py-16 sm:px-6 lg:px-8">
       <div className="flex flex-col md:flex-row gap-10 lg:gap-24">
@@ -106,10 +107,9 @@ const ContactForm = ({ inqueryFor }) => {
                 placeholder="Leave a comment..."
               ></textarea>
             </div>
-            <h1>hello: {inqueryFor}</h1>
             {
-              inqueryFor && <div>
-                <p>Enquiry  Product: <span className="font-bold">{inqueryFor}</span></p>
+              inquiryFor && <div>
+                <p>Enquiry  Product: <span className="font-bold">{inquiryFor}</span></p>
               </div>
             }
             <button

@@ -61,9 +61,9 @@ export default function SlickSlider() {
             <div className="p-8 text-center">
               <h3 className="text-xl font-bold uppercase">{product.title}</h3>
               <p className="text-gray-500 my-4 font-bold">{product.description}</p>
-              <button className="group px-4 py-2 font-bold text-xl text-black flex gap-5 items-center mx-auto rounded hover:bg-gray-800">
+              <button className="group px-4 py-2 hover:bg-gray-50 font-bold text-xl text-black flex gap-3 items-center mx-auto rounded">
                 Show MORE
-                <span className="duration-1000 group-hover:translate-x-3">
+                <span className="duration-700 group-hover:translate-x-2">
                   <svg width="20" height="20" viewBox="0 0 43 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M42.0724 9.69629L25.7309 0.261491V19.1311L42.0724 9.69629ZM0.673828 11.3304H27.365V8.06213H0.673828V11.3304Z" fill="black" />
                   </svg>

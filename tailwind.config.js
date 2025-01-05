@@ -15,6 +15,9 @@ module.exports = {
       backgroundSize: {
         '100-auto': '100% auto',
       },
+      backgroundPosition: {
+        '-top-10': 'center top -10rem',
+      }
     },
   },
   plugins: [],

@@ -4,17 +4,14 @@ const ContactForm = () => {
   return (
     <div className="px-4 mx-auto max-w-7xl py-10 md:py-16 sm:px-6 lg:px-8">
       <div className="flex flex-col md:flex-row gap-10 lg:gap-24">
-        <div className="flex-1">
+        <div className="flex-1 ">
           <div>
+            <span className="uppercase text-sm">Contact Now</span>
             <h2 className="mb-4 uppercase text-3xl md:text-4xl tracking-tight font-bold text-gray-900">
-              Contact Us
+              GET IN TOUCH NOW
             </h2>
-            <p className="mb-8 lg:mb-16 font-light text-black sm:text-base">
-              Got a technical issue? Want to send feedback about a beta feature?
-              Need details about our Business plan? Let us know.
-            </p>
           </div>
-          <div className="space-y-3">
+          <div className="space-y-3 mt-16 xl:pr-44">
             <div>
               <h4 className="text-sm font-semibold uppercase">discription</h4>
               <p className="text-base">

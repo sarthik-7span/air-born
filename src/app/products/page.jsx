@@ -187,7 +187,7 @@ const Product = () => {
         </h5>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-10 mt-12">
           {products.map((product, index) => (
-            <Link href="#"
+            <Link href={`/products/${product.name.trim().toLowerCase().replace(/\s+/g, '-')}`}
               key={index}>
               <div className="h-60">
                 <img
@@ -209,7 +209,8 @@ const Product = () => {
         </h5>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-10 mt-12">
           {wholeSpices.map((product, index) => (
-            <Link href="#" key={index}>
+            <Link href={`/products/${product.name.trim().toLowerCase().replace(/\s+/g, '-')}`}
+              key={index}>
               <div className="h-60">
                 <img
                   src={product.image}
@@ -229,7 +230,8 @@ const Product = () => {
           others        </h5>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-10 mt-12">
           {others.map((product, index) => (
-            <Link href="#" key={index}>
+            <Link href={`/products/${product.name.trim().toLowerCase().replace(/\s+/g, '-')}`}
+              key={index}>
               <div className="h-60">
                 <img
                   src={product.image}

@@ -38,6 +38,7 @@ const HealthBenefits = ({ benefits, title = "Health Benefits" }) => (
 
 export default function Product({ params }) {
     const [productDetails, setProductDetails] = React.useState(null);
+    const [isLoading, setIsLoading] = React.useState(true);
     const bottomRef = useRef(null);
 
     React.useEffect(() => {
@@ -45,6 +46,7 @@ export default function Product({ params }) {
             const resolvedParams = await params;
             const { productName } = resolvedParams;
             setProductDetails(product[productName] || null);
+            setIsLoading(false);
         }
         fetchParams();
     }, [params]);
@@ -55,8 +57,12 @@ export default function Product({ params }) {
         }
     };
 
-    if (!productDetails) {
+    if (isLoading) {
         return <div className="max-w-7xl mx-auto p-10 text-center">Loading...</div>;
+    }
+
+    if (!productDetails) {
+        return <div className="max-w-7xl mx-auto p-10 text-center text-2xl">No product found</div>;
     }
 
     const {

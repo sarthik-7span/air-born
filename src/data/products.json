@@ -1,0 +1,454 @@
+{
+    "turmeric": {
+        "title": "Turmeric Finger",
+        "description": "Airborne Exports is manufacturer and exporter of Turmeric Powder, Ground Turmeric. Airborne Agro manufactures and exports Turmeric Powder, Ground Turmeric as per US FDA and ASTA quality standards. Turmeric Powder is well known as Haldi Powder. Turmeric Powder is manufactured by grinding best quality Whole Turmeric. Turmeric Powder is used to flavor food, it is also used as a natural color additive. Airborne Agro manufactures and exports best quality Turmeric Powder.",
+        "image": "/assets/images/turmeric.jpg"
+    },
+    "black-pepper": {
+        "title": "Black Pepper",
+        "description": "Airborne Agro is leading manufacturer, supplier and exporter of black pepper. Black pepper comes from the pepper plant is one of the most traded spices, with high demand worldwide, currently sourced from India and Vietnam. Black pepper is a climbing vine grown for its aromatic fruits, which are powdered and consumed as a spice.",
+        "description_2": "Some Benefits of black pepper - Stops All Types of Cancer, Beneficial to Digestion, Beneficial to Hair, Promotes Loss of Weight, Stops All Types of Cancer, Beneficial to Digestion, Beneficial to Hair.",
+        "image": "/assets/images/black-pepper.jpg"
+    },
+    "whole-chili": {
+        "title": "Whole Chili",
+        "description": "Airborne Agro is one of the renowned exporters of red dry chilli worldwide. Chilli is the king of spices and is in huge demand due to its rich aroma, prickly hot taste, and rich red color.",
+        "description_2": "Dried whole red chili peppers are referred to as red chili wholes and are frequently used to enhance the taste and spice of food in a variety of cuisines. Depending on the kind, they can range in spiciness from moderate to very intense. Whole red chilies can be processed into chili powder or used in cooking to flavor oils and sauces. Apart from its culinary applications, they are abundant in antioxidants and vitamins A and C. Red chilies can significantly improve your health by increasing circulation and acting as a blood thinner to help ward off strokes.",
+        "image": "/assets/images/whole-chili.jpg"
+    },
+    "brown-chickpeas": {
+        "title": "Brown Chickpeas",
+        "image": "/assets/images/brown-chickpeas.jpg",
+        "details": [
+            {
+                "label": "Supplier",
+                "value": "Brown Chickpeas Supplier"
+            },
+            {
+                "label": "Size",
+                "value": "4/5 mm & 7/8 mm"
+            },
+            {
+                "label": "Origin",
+                "value": "Gujarat-India"
+            },
+            {
+                "label": "Chickpeas/100gm",
+                "value": "90/100"
+            },
+            {
+                "label": "Moisture",
+                "value": "12 % Maximum"
+            },
+            {
+                "label": "Admixture",
+                "value": "1 % Maximum"
+            },
+            {
+                "label": "Foreign material",
+                "value": "1 % Maximum"
+            },
+            {
+                "label": "Defected",
+                "value": "1 to 2 % Maximum"
+            },
+            {
+                "label": "Packaging",
+                "value": "1 to 50 kg Jute Bag, PP Bag"
+            },
+            {
+                "label": "Loading",
+                "value": "25 Tons 20ft Container"
+            }
+        ],
+        "description": "You are on the hunt for a reliable brown chickpeas supplier? Look no further! We at Airborne Exports are proud manufacturers of white chickpeas from India. But that’s not all – we also specialize in supplying high-quality brown chickpeas to meet your bulk needs.",
+        "description_2": "Brown chickpeas, also known as desi chickpeas or desi chana, are a staple in many cuisines around the world. They are packed with nutrients, including protein, fiber, and essential vitamins, making them a healthy choice for any diet."
+    },
+    "white-chickpeas": {
+        "title": "White Chickpea",
+        "description": "India is the world’s largest producer of chickpeas, popularly available as two varieties of 'Kabuli' and 'Desi'. Chickpeas are known for their nutty taste and rich protein content. Kore Agro is a quality exporter of chickpeas from India.",
+        "image": "/assets/images/white-chickpeas.jpg",
+        "details": [
+            {
+                "label": "Origin",
+                "value": "Gujarat-India"
+            },
+            {
+                "label": "White Chickpea/Ounce",
+                "value": "38/42, 42/44, 44/46"
+            },
+            {
+                "label": "Moisture",
+                "value": "12 % Maximum"
+            },
+            {
+                "label": "Admixture",
+                "value": "1 % Maximum"
+            },
+            {
+                "label": "Foreign material",
+                "value": "1 % Maximum"
+            },
+            {
+                "label": "Defected",
+                "value": "1 to 2 % Maximum"
+            },
+            {
+                "label": "Packaging",
+                "value": "1 to 50 kg Jute Bag, PP Bag"
+            },
+            {
+                "label": "Loading",
+                "value": "25 Tons 20ft Container"
+            }
+        ]
+    },
+    "white-sesame": {
+        "title": "white Sesam",
+        "description": "Sesame seeds are mainly produced in India, China and African countries. We offer pure natural and Hulled white sesame seeds grown in top quality soil, processed in hygienic condition.",
+        "description_2": "Sesame seeds are tiny, oil-rich seeds derived from the sesame plant one of the oldest cultivated crops in the world. These seeds are valued for their nutty flavor, high oil content, and nutritional benefits",
+        "image": "/assets/images/white-sesame.jpg",
+        "details": [
+            {
+                "label": "Varieties",
+                "value": "Natural White Sesame Seeds - White"
+            },
+            {
+                "label": "Specification",
+                "value": "Purity:91/2/2, 99/1/1,99/1 machine cleaned"
+            },
+            {
+                "label": "Varieties",
+                "value": "7% max"
+            },
+            {
+                "label": "Varieties",
+                "value": "25/50kg PP Bags"
+            }
+        ]
+    },
+    "black-sesame": {
+        "title": "black Sesam",
+        "description": "Sesame seeds are mainly produced in India, China and African countries. We offer pure natural and Hulled black sesame seeds grown in top quality soil, processed in hygienic condition.",
+        "description_2": "Sesame seeds are tiny, oil-rich seeds derived from the sesame plant one of the oldest cultivated crops in the world. These seeds are valued for their nutty flavor, high oil content, and nutritional benefits",
+        "image": "/assets/images/black-sesame.jpg",
+        "details": [
+            {
+                "label": "Varieties",
+                "value": "Natural black Sesame Seeds - black"
+            },
+            {
+                "label": "Specification",
+                "value": "Purity:91/2/2, 99/1/1,99/1 machine cleaned"
+            },
+            {
+                "label": "Varieties",
+                "value": "7% max"
+            },
+            {
+                "label": "Varieties",
+                "value": "25/50kg PP Bags"
+            }
+        ]
+    },
+    "cinnamon": {
+        "title": "Cinnamon",
+        "description": "Cinnamon is a widely used spice made from the inner bark of trees belonging to the genus Cinnamomum. It is known for its warm, sweet, and woody flavor and aroma, making it a popular ingredient in both sweet and savory dishes.",
+        "image": "/assets/images/cinnamon.jpg",
+        "health-benefits": [
+            "Rich in antioxidants",
+            "May help regulate blood sugar levels",
+            "Has anti-inflammatory and antimicrobial properties",
+            "Potential benefits for heart health and brain function"
+        ]
+    },
+    "dry-ginger": {
+        "title": "Dry Ginger",
+        "description": "Dry ginger, also known as sunthi or shunthi in Ayurvedic medicine, is the dried form of fresh ginger (Zingiber officinale). It is a versatile spice widely used for culinary, medicinal, and therapeutic purposes. Drying enhances its shelf life and concentrates its flavors and bioactive compounds.",
+        "health-benefits": [
+            "Contains compounds like gingerol, shogaol, and zingerone, which contribute to its medicinal properties.",
+            "Known for anti-inflammatory, anti-nausea, and digestive benefits.",
+            "May help in weight management by boosting metabolism.",
+            "Supports cardiovascular health by improving blood circulation."
+        ],
+        "image": "/assets/images/dry-ginger.jpg"
+    },
+    "basmati-rice": {
+        "title": "Basmati Rice",
+        "description": "Basmati, meaning ‘Queen of Fragrance’ is a multiplicity of long-grain rice, and rice steam is famous for its scent and delicate flavor. Basmati rice has been reported in India since the early days of the 18th Century though it may have been named differently. Basmati is a variety of long grain rice which is by tradition from India. It’s also called Oryza Sativa. Indian Basmati Rice is one of the well-known worldwide for its quality and aroma.",
+        "description_2": "Airborne Exports sources the most excellent quality rice from the fertile regions of northern parts of the country, Indo-Gangetic plains at the very beginning of the operation.",
+        "image": "/assets/images/basmati-rice.jpg"
+    },
+    "non-basmati-rice": {
+        "title": "Non Basmati Rice",
+        "description": "Non-Basmati: Easily defined as a bowl of rice other than Basmati. Non-Basmati rice also has a high demand due to its multi-function characteristics which are used in different culinary processes. Non-Basmati rice has been reported in India since the early days of the 18th Century though it may have been named differently. Non-Basmati is a variety of long grain rice which is by tradition from India. Non-Indian Basmati Rice is well-known worldwide for its quality and aroma.",
+        "description_2": "Airborne  Exports sources the most excellent quality non-basmati rice from the fertile regions of northern parts of the country, Indo-Gangetic plains at the very beginning of the operation.",
+        "description_3": "This rice is extremely rich within the protein also because of the oil content. Right after the sourcing process, the non basmati rice is made to undergo careful cleaning which helps to achieve a 90 to 95% purity level.",
+        "image": "/assets/images/non-basmati-rice.jpg"
+    },
+    "soybean": {
+        "title": "Soybean",
+        "description": "India has a favorable climate and soil conditions for the growth of many fruits, vegetables, pulses, grains so on and so forth. Soybean exporter in India export tonnes of Soybean abroad every year. Soya bean export from India is on the rise due to the growing popularity of soybean worldwide. Indian Soya bean exporter exports around 3.5 million tonnes of Soybean to countries like Vietnam, Japan, Thailand, Indonesia, UAE, Greece being the major parts of Soybean export. India has a favorable climate and soil conditions for the growth of many fruits, vegetables, pulses, grains so on and so forth. Soybean exporter in India export tonnes of Soybean abroad every year. Soya bean export from India is on the rise due to the growing popularity of soybean worldwide. Indian Soya bean exporter exports around 3.5 million tonnes of Soybean to countries like Vietnam, Japan, Thailand, Indonesia, UAE, Greece being the major parts of Soybean export.",
+        "image": "/assets/images/soybean.jpg"
+    },
+    "wheat": {
+        "title": "Non Basmati Rice",
+        "description": "Wheat is a cereal grain mostly eaten in the form of bread in different parts of the world. Wheat exporter in India exports tonnes of wheat abroad each year. Wheat is also known to have a higher protein content than other major cereals such as maize or rice. Thus the global demand for wheat export is on the rise. The Indian wheat exporter, therefore, exports increasing amount of wheat and wheat products each year. This is a good opportunity for wheat export from India to rise and earn good revenues for the vendors and farmers.",
+        "image": "/assets/images/wheat.jpg"
+    },
+    "groundnuts": {
+        "title": "Groundnuts",
+        "description": "Are you looking for a peanut seeds manufacturer? Airborne Exports Private Limited is India's leading peanut or groundnut seeds manufacturer.",
+        "description_2": "Airborne Exports  is at the forefront of peanut seed manufacturing, delivering top-quality seeds to farmers and businesses worldwide. With a commitment to quality, innovation, and sustainability, we ensure that our seeds contribute to successful peanut cultivation and meet the growing demands of global agriculture. This article delves into the history, production process, and market presence ofAirborneExports, providing valuable insights into what makes us a trusted name in the peanut seeds manufacturing industry.",
+        "description_3": "As a leading peanut seeds manufacturer, Airborne Exports plays a crucial role in supporting agricultural productivity. Peanut seeds are the cornerstone of peanut farming, and our company ensures that these seeds are bred to withstand environmental challenges, offer high yields, and resist common pests and diseases. Our expertise lies in producing peanut seeds that align with both local and international agricultural needs, contributing to the global peanut industry.",
+        "description_4": "Airborne Exports has grown to become a global player in the peanut seeds market, exporting seeds to various countries across Asia, Africa, and Europe. Our international reach reflects our commitment to delivering high-quality seeds that meet the rigorous standards of the global market.",
+        "description_5": "Airborne Exports  has established itself as a trusted name in the peanut seeds manufacturing industry. Our commitment to quality, innovation, and sustainable practices sets us apart from competitors. By choosing Airborne Exports as your peanut seeds supplier, you can be assured of superior seeds that contribute to the success of your peanut crops.",
+        "image": "/assets/images/groundnuts.jpg"
+    },
+    "chili-powder": {
+        "title": "Chili Powder",
+        "image": "/assets/images/chili-powder.jpg",
+        "details": [
+            {
+                "label": "Origin",
+                "value": "India"
+            },
+            {
+                "label": "Purity",
+                "value": "100%"
+            },
+            {
+                "label": "Moisture",
+                "value": "10% Max"
+            },
+            {
+                "label": "From",
+                "value": "powder"
+            },
+            {
+                "label": "Packaging",
+                "value": "15/25/50kg jute Bag, PP Bag"
+            },
+            {
+                "label": "Loading",
+                "value": "20'FCL-16MT  40'FCL-27MT"
+            }
+        ],
+        "description": "Airborne Exports is the leading exporters and suppliers of red chilli powder in India. Chilli originates from South America. Airborne Exports offers best quality Red Chilli Powder which is ideal for preparing a wide variety of Cuisines such as Curry, sausages, and many more.",
+        "description_2": "Red chili powder is an important and crucial kitchen ingredient of Indian spice containers. For culinary purposes, this spice works like magic. With this masala, you can add curries, dals, tadkas, garnishes and much more. Its use exceeds expectations, making it a must-have in any kitchen."
+    },
+    "turmeric-powder": {
+        "title": "Turmeric Powder",
+        "image": "/assets/images/turmeric-powder.jpg",
+        "details": [
+            {
+                "label": "Origin",
+                "value": "India"
+            },
+            {
+                "label": "Purity",
+                "value": "100%"
+            },
+            {
+                "label": "Moisture",
+                "value": "10% Max"
+            },
+            {
+                "label": "Total Ash",
+                "value": "10% Max"
+            },
+            {
+                "label": "Packaging",
+                "value": "15/25/50kg jute Bag, PP Bag"
+            },
+            {
+                "label": "Loading",
+                "value": "20'FCL-16MT  40'FCL-27MT"
+            }
+        ],
+        "description": "Airborne Exports is manufacturer and exporter of Turmeric Powder, Ground Turmeric. airborne agro manufactures and exports Turmeric Powder, Ground Turmeric as per US FDA and ASTA quality standards. Tumeric Powder is well known as Haldi Powder. Turmeric Powder is manufactured by grinding best quality Whole Turmeric. Turmeric Powder is used to flavor food, it is also used as natural color additive. airborne agro manufactures and exports best quality Turmeric Powder.",
+        "health-benefits-2": [
+            "It Promotes Heart Health.",
+            "It Burns Fat Naturally",
+            "It Aids in Immune System Boosting.",
+            "It Guards Against Damage from Free Radicals.",
+            "It Has Antiseptic Properties.",
+            "It Assists In Reducing Arthritis Pain.",
+            "It's an Effective Antioxidant",
+            "It Aids in Cholesterol Reduction."
+        ]
+    },
+    "cumin": {
+        "title": "Cumin Seeds",
+        "image": "/assets/images/cumin.jpg",
+        "details": [
+            {
+                "label": "Country",
+                "value": "India"
+            },
+            {
+                "label": "Colour",
+                "value": "Light Yellowish"
+            },
+            {
+                "label": "Type",
+                "value": "Organic/Conventional"
+            },
+            {
+                "label": "Packaging",
+                "value": "10 to 50kg Jute Bag, PP Bag"
+            },
+            {
+                "label": "Loading",
+                "value": "20'FCL-16MT  40'FCL-27MT"
+            }
+        ],
+        "description": "Airborne Agro is a manufacturer and exporter of Cumin Seeds Powder, Ground Cumin. Airborne Agro manufactures and exports Cumin Powder, Ground Cumin as per US FDA and ASTA quality standards. We can also supply Roasted Cumin Powder and ETO treated Cumin Powder. Cumin Powder is well known as Jeera Powder. Cumin Powder is prepared by grinding the best quality Cumin Seeds. Cumin Powder is used to flavor rice, stuffed vegetables, and many other dishes. Airborne Agro manufactures and exports the best quality Cumin Powder.",
+        "health-benefits-2": [
+            "Blood Sugar Control: Helps control blood sugar levels.",
+            "Antioxidant Properties: Protects against cell damage.",
+            "Digestive Health: Aids in digestion and reduces flatulence."
+        ]
+    },
+    "garlic": {
+        "title": "Garlic",
+        "image": "/assets/images/garlic.jpg",
+        "details": [
+            {
+                "label": "Packaging Type",
+                "value": "Loose"
+            },
+            {
+                "label": "Is it Organic?",
+                "value": "Organic"
+            },
+            {
+                "label": "Country",
+                "value": "Made in India"
+            },
+            {
+                "label": "Packaging",
+                "value": "1 to 50 kg Jute Bag, PP Bag"
+            },
+            {
+                "label": "Loading",
+                "value": "25 to 50 tons"
+            }
+        ],
+        "description": "Garlic is a bulbous plant belonging to the onion family. Known for its pungent flavor and aroma, garlic is a popular ingredient in cuisines worldwide. It also has numerous medicinal properties, making it a staple in traditional and modern natural remedies."
+    },
+    "coriander": {
+        "title": "Coriander",
+        "image": "/assets/images/coriander.jpg",
+        "details": [
+            {
+                "label": "Country",
+                "value": "India"
+            },
+            {
+                "label": "Moisture",
+                "value": "10% Max"
+            },
+            {
+                "label": "Ash",
+                "value": "10% Max"
+            },
+            {
+                "label": "Purity",
+                "value": "95 – 97%"
+            },
+            {
+                "label": "Packaging",
+                "value": "1 to 50 kg Jute Bag, PP Bag"
+            },
+            {
+                "label": "Loading",
+                "value": "20’ FCL- 16 MT & 40’ FCL- 27MT"
+            }
+        ],
+        "description": " Airborne Agro is manufacturer exporter of Coriander Seeds Powder, Ground Coriander in India. Airborne  Agro manufactures and exports Coriander Seeds Powder, Ground Coriander as per US FDA and ASTA quality standards and ETO treated. Coriander Powder is well known as Dhaniya Powder. Coriander Powder is manufactured by grinding best quality Coriander Seeds. Coriander Powder is used to flavor rice, stuffed vegetables and many other dishes. Airborne  Agro manufactures and exports best quality Coriander Powder.",
+        "description_2": " Coriander can lower blood pressure. This can lower blood pressure in people with low blood pressure. Use with caution if you have low blood pressure or take medications to lower your blood pressure."
+    },
+    "star-anise": {
+        "title": "Star Anise",
+        "image": "/assets/images/star-anise.jpg",
+        "details": [
+            {
+                "label": "Origin",
+                "value": "India"
+            },
+            {
+                "label": "Purity",
+                "value": "100%"
+            },
+            {
+                "label": "Moisture",
+                "value": "10.10% Max"
+            },
+            {
+                "label": "Self Life",
+                "value": "1%"
+            },
+            {
+                "label": "Form",
+                "value": "Whole/ Broken"
+            },
+            {
+                "label": "Packaging",
+                "value": "15/25/50 kg Jute Bag, PP Bag"
+            },
+            {
+                "label": "Loading",
+                "value": "20’ FCL- 16 MT & 40’ FCL- 27MT"
+            }
+        ],
+        "description": "A star-shaped, dark brown pod that contains a pea-size seed in each of its eight segments, available in whole or grounded and is a native to China.It is known for its delicately sweet and aromatic bouquet with a distinctive liquorice flavor.",
+        "description_2": "Star anise is rich in antioxidants, which can help protect against oxidative stress and inflammation.",
+        "description_3": "Tea leaves Whole spices Essential oil seeds",
+        "description_4": "Indian and Chinese cuisines frequently call for the usage of star anise. It makes up a significant portion of 'garam masala.' It is utilized as a nutritional supplement in the food sector. It is a staple in many different recipes, drinks, sweets, and hearty stews. Products such as dried beet, garlic, and cabbage flakes, as well as tomato and carrot powder, include star anise."
+    },
+    "cloves": {
+        "title": "Cloves",
+        "image": "/assets/images/cloves.jpg",
+        "description": "We are exporters & suppliers of cloves. Cloves are the aromatic dried flower buds often used in Asian, African, and Middle Eastern cooking in adding flavor to meats, curries, and meat marinades.",
+        "description_2": "Cloves are a great source of essential nutrients like vitamin K, minerals like manganese and potassium, and dietary fiber. It possesses antiseptic, antibacterial, and antifungal properties that guard against infections from a variety of organisms."
+    },
+    "green-cardamon": {
+        "title": "Green Cardamon",
+        "image": "/assets/images/green-cardamon.jpg",
+        "description": "Green cardamom pods are harder to find and more expensive than the other forms of cardamom. It is a common ingredient in cooking, and is often used in baking. We are best suppliers & exporters of green cardmom.",
+        "description_2": "Cardamom is used as a spice in both sweet and savory dishes. It is widely employed in Indian, Middle Eastern, Arabic and Swedish cuisine. It comes in two varieties and is used as whole pods, seeds or ground. Cardamom is found in garam masala spice blends that are used in meat and vegetable dishes and in hot beverages such as masala tea and Turkish coffee. The tiny green pod containing black seeds makes a significant contribution to cardiovascular health alleviation, cholesterol regulation, gastrointestinal protection, and improved blood circulation."
+    },
+    "ginger-powder": {
+        "title": "Ginger powder",
+        "description": " Ginger is a flowering plant that’s widely known for its aromatic, spicy root, which is commonly used as a spice in cooking and as a remedy in traditional medicine. It’s been used for thousands of years in cultures around the world, especially in Asia, for both culinary and medicinal purposes.",
+        "description_2": "Fresh Ginger: Often grated or minced, it’s added to stir-fries, soups, curries, marinades, and teas.",
+        "details": [
+            {
+                "label": "Packaging Type",
+                "value": "Loose"
+            },
+            {
+                "label": "Country",
+                "value": "India"
+            },
+            {
+                "label": "Harvest Season",
+                "value": "November"
+            },
+            {
+                "label": "Scientific Name",
+                "value": "Zingiber Officinale"
+            },
+            {
+                "label": "Packaging",
+                "value": "10 to 50 kg Jute Bag, PP Bag"
+            },
+            {
+                "label": "Loading",
+                "value": "20’ FCL- 16 MT & 40’ FCL- 27MT"
+            }
+        ],
+        "image": "/assets/images/ginger-powder.jpg"
+    }
+}

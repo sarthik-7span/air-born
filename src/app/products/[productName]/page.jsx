@@ -1,94 +1,115 @@
-"use client"
+'use client';
+
+import React, { useRef } from "react";
 import ContactForm from "@/components/ContactForm";
-import React from "react";
-import { useRouter } from 'next/router'
+import product from "@/data/products.json";
 
-const Product = () => {
-    const router = useRouter()
+const ProductDescription = ({ descriptions }) => (
+    <div className="text-left md:text-center text-lg space-y-5 mt-12 lg:mt-20">
+        {descriptions.map((desc, index) => (
+            <p key={index} className="text-gray-700 leading-relaxed">{desc}</p>
+        ))}
+    </div>
+);
 
-    console.log("hello", router.query.productName);
+const ProductTable = ({ details }) => (
+    <table className="w-full border-collapse">
+        <tbody>
+            {details.map((item, index) => (
+                <tr key={index}>
+                    <td className="py-2 px-4 font-semibold border-b">{item.label}</td>
+                    <td className="py-2 px-4 text-gray-600 border-b">{item.value}</td>
+                </tr>
+            ))}
+        </tbody>
+    </table>
+);
+
+const HealthBenefits = ({ benefits, title = "Health Benefits" }) => (
+    <div className="text-left text-lg space-y-5 w-full lg:w-1/2">
+        <h2 className="font-bold text-xl">{title}</h2>
+        <ul className="list-disc list-inside">
+            {benefits.map((item, index) => (
+                <li key={index} className="text-gray-700 leading-relaxed">{item}</li>
+            ))}
+        </ul>
+    </div>
+);
+
+export default function Product({ params }) {
+    const [productDetails, setProductDetails] = React.useState(null);
+    const bottomRef = useRef(null);
+
+    React.useEffect(() => {
+        async function fetchParams() {
+            const resolvedParams = await params;
+            const { productName } = resolvedParams;
+            setProductDetails(product[productName] || null);
+        }
+        fetchParams();
+    }, [params]);
+
+    const handleScroll = () => {
+        if (bottomRef.current) {
+            bottomRef.current.scrollIntoView({ behavior: "smooth" });
+        }
+    };
+
+    if (!productDetails) {
+        return <div className="max-w-7xl mx-auto p-10 text-center">Loading...</div>;
+    }
+
+    const {
+        title,
+        image,
+        details,
+        description,
+        healthBenefits,
+        healthBenefits2,
+        description_2,
+        description_3,
+        description_4,
+        description_5,
+    } = productDetails;
+
+    const descriptions = [description, description_2, description_3, description_4, description_5].filter(Boolean);
 
     return (
         <main>
-            <section className="bg-[url('/assets/images/product-cover.jpg')] py-24 md:py-36 bg-no-repeat bg-cover -bg-top-10">
+            <section className="bg-[url('/assets/images/product-cover.jpg')] py-24 md:py-36 bg-no-repeat bg-cover">
                 <h1 className="px-4 mx-auto text-3xl md:text-4xl max-w-7xl text-center font-semibold text-black uppercase">
-                    PRODUCTS
+                    Products
                 </h1>
             </section>
             <section>
                 <div className="bg-white py-10 p-4 mx-auto max-w-7xl">
-                    <h1 className="text-2xl font-bold text-center mb-6">{router}</h1>
+                    <h1 className="text-2xl font-bold text-center mb-6 capitalize">{title}</h1>
                     <div className="flex flex-col lg:flex-row gap-10 lg:gap-20 items-center">
-                        <div className="w-full lg:w-1/2 flex justify-center">
-                            <div className="p-4 border-2 border-gray-300 rounded-lg">
-                                <img src="/assets/images/corn.jpg" alt="Red Chilli Powder" className="rounded-lg object-contain" />
+                        <div className={`w-full ${details || healthBenefits ? "lg:w-1/2" : "max-w-3xl mx-auto"} flex justify-center`}>
+                            <div className="p-4 border-2 border-gray-300 rounded-lg w-full">
+                                <img src={image} alt={title} className="rounded-lg object-contain mx-auto" />
                             </div>
                         </div>
-                        <div className="w-full lg:w-1/2">
-                            <table className="w-full border-collapse">
-                                <tbody>
-                                    <tr>
-                                        <td className="py-2 px-4 font-semibold border-b">Origin</td>
-                                        <td className="py-2 px-4 text-gray-600 border-b">India</td>
-                                    </tr>
-                                    <tr>
-                                        <td className="py-2 px-4 font-semibold border-b">Purity</td>
-                                        <td className="py-2 px-4 text-gray-600 border-b">100%</td>
-                                    </tr>
-                                    <tr>
-                                        <td className="py-2 px-4 font-semibold border-b">Moisture</td>
-                                        <td className="py-2 px-4 text-gray-600 border-b">10.10% Max</td>
-                                    </tr>
-                                    <tr>
-                                        <td className="py-2 px-4 font-semibold border-b">Type</td>
-                                        <td className="py-2 px-4 text-gray-600 border-b">Conventional</td>
-                                    </tr>
-                                    <tr>
-                                        <td className="py-2 px-4 font-semibold border-b">Self Life</td>
-                                        <td className="py-2 px-4 text-gray-600 border-b">1%</td>
-                                    </tr>
-                                    <tr>
-                                        <td className="py-2 px-4 font-semibold border-b">Form</td>
-                                        <td className="py-2 px-4 text-gray-600 border-b">Powder</td>
-                                    </tr>
-                                    <tr>
-                                        <td className="py-2 px-4 font-semibold border-b">Packaging</td>
-                                        <td className="py-2 px-4 text-gray-600 border-b">15/25/50 KG</td>
-                                    </tr>
-                                    <tr>
-                                        <td className="py-2 px-4 font-semibold border-b">Loading</td>
-                                        <td className="py-2 px-4 text-gray-600 border-b">20' FCL- 16 MT</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                            <button
-                                className="mt-6 w-full py-2 bg-gray-300 text-gray-800 font-semibold rounded-md hover:bg-gray-400 transition"
-                            >
-                                Inquire now
-                            </button>
-                        </div>
+                        {details && (
+                            <div className="w-full lg:w-1/2">
+                                <ProductTable details={details} />
+                                <button
+                                    onClick={handleScroll}
+                                    className="mt-6 w-full py-2 bg-gray-300 text-gray-800 font-semibold rounded-md hover:bg-gray-400 transition"
+                                >
+                                    Inquire Now
+                                </button>
+                            </div>
+                        )}
+                        {healthBenefits && <HealthBenefits benefits={healthBenefits} />}
                     </div>
-                    <div className="text-center text-lg space-y-5 mt-12 lg:mt-24">
-                        <p className="text-gray-700 leading-relaxed">
-                            Red Chilly is stated to be a native of South America and widely grown in all parts of India as well.
-                            It was the first coming insight in India by the Portuguese towards before the start of the 16th
-                            Century. Now it is grown all over the world's warm place,
-                        </p>
-                        <p className="mt-4 text-gray-700 leading-relaxed">
-                            Red chili powder is a product of raw and dry chili after the grinding process through special
-                            equipment. Red pepper powder is widely used in all kinds of recipes worldwide. It is also known as
-                            gochugaru and Mirchi powder in the Korean market and Indian market, respectively.
-                        </p>
-                        <p className="mt-4 text-gray-700 leading-relaxed">
-                            Dry chilly is broadly used as a spice in curried dishes. It is also used as an ingredient in the
-                            making of the most curry-making recipes.
-                        </p>
-                    </div>
+                    {descriptions.length > 0 && <ProductDescription descriptions={descriptions} />}
+                    {healthBenefits2 && <HealthBenefits benefits={healthBenefits2} title="Additional Health Benefits" />}
                 </div>
             </section>
-            <ContactForm />
+            <div ref={bottomRef}>
+                <ContactForm inquiryFor={title} />
+            </div>
         </main>
     );
-};
-
-export default Product;
+}

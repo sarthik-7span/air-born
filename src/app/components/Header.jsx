@@ -8,10 +8,10 @@ import { usePathname } from "next/navigation";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const currentPath = usePathname(); // Use usePathname hook for current route
+  const currentPath = usePathname();
 
   return (
-    <header className="bg-white shadow-md">
+    <header className="bg-white shadow-md sticky z-50 top-0">
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         {/* lg+ */}
         <nav className="flex items-center justify-between h-16 lg:h-20">
@@ -63,7 +63,7 @@ const Header = () => {
           <div className="hidden lg:flex lg:items-center lg:ml-auto lg:space-x-10">
             <Link
               href="/"
-              className={`text-base p-1 font-bold transition-all duration-200 ${currentPath === "/"
+              className={`text-base p-1 font-medium transition-all duration-200 ${currentPath === "/"
                 ? "border-b-2 border-blue-600 !font-bold text-blue-600"
                 : "border-black text-black hover:text-blue-600 focus:text-blue-600"
                 }`}
@@ -72,7 +72,7 @@ const Header = () => {
             </Link>
             <Link
               href="/products"
-              className={`text-base p-1 font-medium transition-all duration-200 ${currentPath === "/products"
+              className={`text-base p-1 font-medium transition-all duration-200 ${currentPath.startsWith("/products")
                 ? "border-b-2 border-blue-600 !font-bold text-blue-600"
                 : "border-black text-black hover:text-blue-600 focus:text-blue-600"
                 }`}
@@ -94,12 +94,12 @@ const Header = () => {
         {isMenuOpen && (
           <nav className="absolute left-0 right-0 top-16 pt-4 mb-6 pb-6 bg-white border border-gray-200 shadow-md lg:hidden">
             <div className="flow-root">
-              <div className="flex flex-col px-6 -my-2 space-y-1">
+              <div className="flex flex-col -my-2 space-y-1">
                 <Link
                   href="/"
                   onClick={() => setIsMenuOpen(false)}
-                  className={`text-base p-1 font-medium transition-all duration-200 ${currentPath === "/"
-                    ? "text-blue-600 !font-bold"
+                  className={`text-base px-6 p-1 font-medium transition-all duration-200 ${currentPath === "/"
+                    ? "text-blue-600 !font-bold bg-blue-50"
                     : "border-black text-black hover:text-blue-600 focus:text-blue-600"
                     }`}
                 >
@@ -108,8 +108,8 @@ const Header = () => {
                 <Link
                   href="/products"
                   onClick={() => setIsMenuOpen(false)}
-                  className={`text-base p-1 font-medium transition-all duration-200 ${currentPath === "/products"
-                    ? "text-blue-600 !font-bold"
+                  className={`text-base px-6 p-1 font-medium transition-all duration-200 ${currentPath.startsWith("/products")
+                    ? "text-blue-600 !font-bold bg-blue-50"
                     : "border-black text-black hover:text-blue-600 focus:text-blue-600"
                     }`}
                 >
@@ -118,8 +118,8 @@ const Header = () => {
                 <Link
                   href="/contact-us"
                   onClick={() => setIsMenuOpen(false)}
-                  className={`text-base p-1 font-medium transition-all duration-200 ${currentPath === "/contact-us"
-                    ? "text-blue-600 !font-bold"
+                  className={`text-base px-6 p-1 font-medium transition-all duration-200 ${currentPath === "/contact-us"
+                    ? "text-blue-600 !font-bold bg-blue-50"
                     : "border-black text-black hover:text-blue-600 focus:text-blue-600"
                     }`}
                 >

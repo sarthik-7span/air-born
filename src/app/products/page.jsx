@@ -5,8 +5,8 @@ import React from "react";
 const Product = () => {
   const products = [
     {
-      name: "Whole Chilli",
-      image: "/assets/images/whole-chilli.jpg",
+      name: "Whole Chili",
+      image: "/assets/images/whole-chili.jpg",
     },
     {
       name: "Turmeric",
@@ -71,8 +71,8 @@ const Product = () => {
   ];
   const wholeSpices = [
     {
-      name: "Chilli Powder",
-      image: "/assets/images/chilli-powder.jpg",
+      name: "Chili Powder",
+      image: "/assets/images/chili-powder.jpg",
     },
     {
       name: "Cumin Powder",

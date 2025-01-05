@@ -56,18 +56,18 @@ export default function Home() {
         <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8 text-center relative z-10 text-black">
           <div className="relative block text-2xl mb-10 text-left font-semibold text-black">
             Original & Trusted
-            <Image src={underline} width={200} alt="underline icon" />
+            <Image src={underline} className="w-52" alt="underline icon" />
           </div>
-          <h3 className="text-3xl lg:leading-normal sm:text-4xl lg:text-6xl font-bold">
+          <h3 className="text-xl lg:leading-normal sm:text-4xl lg:text-6xl font-bold">
             Your Trusted Partner in Bringing
             Authentic Indian Goods to the World
           </h3>
-          <div className="space-y-3 mt-20 text-sm lg:text-base">
-            <h6 className="font-bold text-3xl mb-10">
+          <div className="space-y-3 mt-6 lg:mt-20 text-sm lg:text-base">
+            <h6 className="font-bold text-sm sm:text-xl lg:text-3xl mb-10">
               You Deserve Quality. <br />
               We Deliver Excellence Across Industries Worldwide.
             </h6>
-            <div className="font-medium text-2xl space-y-8">
+            <div className="font-medium text-sm space-y-4 lg:text-2xl lg:space-y-8">
               <p>
                 At Airborne Export, we take pride in being a leading merchant-based exporter, delivering the best of India's diverse and high-quality products to customers around the globe. With a deep understanding of India's rich cultural heritage and market, we source and export a wide range of products that meet international standards. From agricultural produce and spices to textiles and handicrafts, our extensive network ensures that we bring the finest Indian goods to the world.</p>
               <p>

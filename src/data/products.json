@@ -191,11 +191,6 @@
         "description": "India has a favorable climate and soil conditions for the growth of many fruits, vegetables, pulses, grains so on and so forth. Soybean exporter in India export tonnes of Soybean abroad every year. Soya bean export from India is on the rise due to the growing popularity of soybean worldwide. Indian Soya bean exporter exports around 3.5 million tonnes of Soybean to countries like Vietnam, Japan, Thailand, Indonesia, UAE, Greece being the major parts of Soybean export. India has a favorable climate and soil conditions for the growth of many fruits, vegetables, pulses, grains so on and so forth. Soybean exporter in India export tonnes of Soybean abroad every year. Soya bean export from India is on the rise due to the growing popularity of soybean worldwide. Indian Soya bean exporter exports around 3.5 million tonnes of Soybean to countries like Vietnam, Japan, Thailand, Indonesia, UAE, Greece being the major parts of Soybean export.",
         "image": "/assets/images/soybean.jpg"
     },
-    "wheat": {
-        "title": "Non Basmati Rice",
-        "description": "Wheat is a cereal grain mostly eaten in the form of bread in different parts of the world. Wheat exporter in India exports tonnes of wheat abroad each year. Wheat is also known to have a higher protein content than other major cereals such as maize or rice. Thus the global demand for wheat export is on the rise. The Indian wheat exporter, therefore, exports increasing amount of wheat and wheat products each year. This is a good opportunity for wheat export from India to rise and earn good revenues for the vendors and farmers.",
-        "image": "/assets/images/wheat.jpg"
-    },
     "groundnuts": {
         "title": "Groundnuts",
         "description": "Are you looking for a peanut seeds manufacturer? Airborne Exports Private Limited is India's leading peanut or groundnut seeds manufacturer.",
@@ -335,7 +330,10 @@
                 "value": "25 to 50 tons"
             }
         ],
-        "description": "Garlic is a bulbous plant belonging to the onion family. Known for its pungent flavor and aroma, garlic is a popular ingredient in cuisines worldwide. It also has numerous medicinal properties, making it a staple in traditional and modern natural remedies."
+        "description": "The airborne exports of garlic is a key logistics solution for delivering this highly valued culinary and medicinal ingredient to international markets. Garlic, while less perishable than many fruits and vegetables, benefits from air freight in high-demand or time-sensitive situations, such as meeting seasonal peaks or supplying premium varieties.",
+        "description_2": "Garlic intended for export is carefully harvested and sorted to ensure high quality. It undergoes cleaning, curing, and grading to meet the stringent standards of importing countries. Proper packaging is crucial to maintain freshness and prevent damage. Garlic is typically packed in breathable mesh bags or ventilated cartons to allow airflow, reducing the risk of moisture buildup and spoilage during transit.",
+        "description_3": "Temperature and humidity control play an important role in preserving garlic’s firmness and flavor. Airborne exports are especially common for high-value garlic varieties, such as organic or specialty breeds, which command premium prices in global markets. Countries like China, Spain, and India, as leading garlic producers, rely on air freight to cater to markets in Europe, North America, and the Middle East.",
+        "description_4": "Despite higher costs compared to sea freight, air transport ensures garlic reaches its destination quickly and in optimal condition. This approach supports a steady global supply, catering to consumer demand for fresh, high-quality garlic year-round."
     },
     "coriander": {
         "title": "Coriander",
@@ -371,7 +369,7 @@
     },
     "star-anise": {
         "title": "Star Anise",
-        "image": "/assets/images/star-anise.jpg",
+        "image": "/assets/images/star-anise.png",
         "details": [
             {
                 "label": "Origin",
@@ -450,5 +448,142 @@
             }
         ],
         "image": "/assets/images/ginger-powder.jpg"
+    },
+    "wheat": {
+        "title": "Wheat",
+        "image": "/assets/images/wheat.jpg",
+        "description": "Airborne Exports is a trusted global supplier of high-quality wheat, providing essential grains to markets around the world. Sourced from top-tier farms with sustainable agricultural practices, the company ensures that all wheat is cultivated, harvested, and processed under rigorous quality control standards. Wheat, a vital staple crop, is rich in carbohydrates, proteins, and dietary fiber, making it a cornerstone of nutrition in many countries.",
+        "description_2": "Airborne Exports specializes in various wheat varieties, including hard red winter wheat, soft red winter wheat, and durum wheat, catering to a wide array of industries. These wheat types are used in everything from bread, pasta, and cereals to animal feed, providing both nourishment and economic value globally. With the growing demand for high-quality, consistent wheat, Airborne Exports serves as a reliable partner for bakers, food manufacturers, and agricultural enterprises.",
+        "description_3": "The company is committed to efficiency in logistics, ensuring timely airborne exports to international markets, reducing transportation costs, and maintaining the quality of the wheat during transit. By leveraging advanced shipping technologies and a network of trusted partners, Airborne Exports guarantees smooth and reliable deliveries to customers worldwide.",
+        "description_4": "As global food security remains a priority, Airborne Exports plays a pivotal role in ensuring access to premium wheat, contributing to healthier diets and sustainable agricultural growth worldwide."
+    },
+    "banana-powder": {
+        "title": "Banana Powder",
+        "image": "/assets/images/banana-powder.jpg",
+        "description": "Airborne Exports is a leading exporter of high-quality banana powder, offering a nutritious and versatile product that is gaining traction in international markets. Sourced from premium, ripe bananas, the powder is produced through a meticulous drying and grinding process, which preserves its natural flavor, vitamins, and minerals. With its rich content of potassium, vitamin B6, and dietary fiber, Airborne Exports' banana powder is an ideal ingredient for a wide range of applications, including baby foods, smoothies, baked goods, and energy bars.",
+        "description_2": "One of the key selling points of Airborne Exports' banana powder is its superior quality and sustainability. The company prides itself on sourcing bananas from environmentally responsible farms, ensuring that every batch of powder meets rigorous quality standards. This commitment to excellence has earned the brand a reputation for consistency and reliability in the international market.",
+        "description_3": "The lightweight, shelf-stable nature of banana powder makes it an ideal export product, especially for markets where fresh bananas are not readily available. Airborne Exports leverages efficient air freight services, ensuring quick and cost-effective delivery worldwide, helping to meet the growing demand for nutritious, plant-based food products across various regions.",
+        "description_4": "As the global appetite for health-conscious foods continues to rise, Airborne Exports stands out as a trusted supplier of high-quality banana powder for diverse industries."
+    },
+    "cotton": {
+        "title": "Cotton",
+        "image": "/assets/images/cotton.jpg",
+        "description": "Airborne Exports is a company that specializes in the export of cotton and other agricultural commodities to global markets. Known for its high-quality cotton, Airborne Exports sources cotton from reputable farms and processing facilities to meet the needs of international buyers, particularly in the textile and manufacturing sectors.",
+        "description_2": "Cotton is one of the world’s most traded agricultural commodities, and Airborne Exports capitalizes on the global demand by providing cotton to countries in Asia, Europe, and beyond. The company ensures that the cotton it exports meets stringent quality standards, whether it's raw cotton, cotton yarn, or cotton fabrics.",
+        "description_3": "In addition to its focus on cotton, Airborne Exports also works with other agricultural products, leveraging its experience in logistics and supply chain management to efficiently ship goods worldwide. The company’s use of modern shipping technologies and a strong network of global partners helps streamline the export process, ensuring timely delivery and competitive pricing.",
+        "description_4": "With its expertise in the agricultural export market, Airborne Exports plays an essential role in connecting cotton producers with textile manufacturers, helping to sustain global textile industries and contribute to the economic growth of cotton-growing regions.",
+        "description_5": "Through commitment to quality, efficiency, and customer satisfaction, Airborne Exports has become a trusted name in the cotton export industry."
+    },
+    "onion-powder": {
+        "title": "onlion powder",
+        "image": "/assets/images/onion-powder.jpg",
+        "description": "Airborne Exports is a leading exporter specializing in a variety of high-quality spices, including onion powder. With a commitment to delivering premium products, the company has built a strong presence in global markets, providing bulk onion powder to customers worldwide. Airborne Exports sources its onion powder from trusted farms, ensuring that it is processed under stringent quality controls to preserve flavor, aroma, and nutritional content.",
+        "description_2": "Onion powder, a popular spice in culinary applications, is made by dehydrating and grinding onions into a fine powder. It is widely used in various cuisines to add savory depth to dishes like soups, sauces, marinades, and snacks. The convenience of onion powder makes it a staple in kitchens around the world, as it offers a long shelf life and easy storage compared to fresh onions.",
+        "description_3": "Airborne Exports ensures that their onion powder is packaged to retain freshness, offering various packaging sizes for retail and wholesale clients. The company is known for its reliable shipping services and customer satisfaction. By maintaining high standards of quality, Airborne Exports has established itself as a trusted name in the global spice export industry, meeting the needs of food manufacturers, restaurants, and culinary enthusiasts."
+    },
+    "garlic-powder": {
+        "title": "garlic powder",
+        "image": "/assets/images/garlic-powder.jpg",
+        "description": "Airborne Exports is a trusted leader in the global export of premium garlic powder, offering top-quality products sourced from the best garlic-growing regions. The company is renowned for its dedication to delivering consistently high-quality spices to international markets. Garlic powder, a versatile and essential ingredient in many cuisines, is produced by carefully dehydrating and grinding garlic cloves into a fine, aromatic powder. It serves as a convenient alternative to fresh garlic, providing robust flavor without the hassle of peeling or chopping.",
+        "description_2": "The garlic powder supplied by Airborne Exports is meticulously processed to ensure it retains its natural flavor, aroma, and nutritional benefits. The company’s stringent quality control processes guarantee that only the finest garlic undergoes processing, resulting in a product that enhances a wide range of dishes, from sauces and soups to meat rubs and marinades.",
+        "description_3": "Airborne Exports offers garlic powder in various packaging options to suit the needs of wholesale distributors, food manufacturers, and retail clients. The company prides itself on its reliable shipping practices and commitment to customer satisfaction, making it a preferred partner for businesses worldwide. With a focus on quality, consistency, and customer service, Airborne Exports continues to be a leading supplier of garlic powder on the global stage."
+    },
+    "coriander-powder": {
+        "title": "Coriander Powder",
+        "image": "/assets/images/coriander-powder.jpg",
+        "description": "Airborne Exports is a prominent global exporter known for providing high-quality coriander powder, a versatile spice used in a wide range of culinary applications. The company sources coriander powder from trusted suppliers who cultivate the finest coriander seeds. These seeds are carefully dried and ground into a fine powder to preserve their rich, aromatic flavor, ensuring a premium product for customers around the world.",
+        "description_2": "Coriander powder, derived from the seeds of the coriander plant, is a key ingredient in many spice blends, such as curry powders, and is commonly used in various global cuisines, including Indian, Middle Eastern, and Latin American dishes. Its mild, citrusy flavor adds a unique depth to soups, stews, meats, and vegetables, making it a staple in both home kitchens and professional kitchens worldwide.",
+        "description_3": "Airborne Exports prioritizes quality and consistency, ensuring that every batch of coriander powder meets the highest standards. Their products undergo rigorous quality control checks to maintain freshness and flavor. Offering a variety of packaging options, the company caters to both bulk buyers and retail clients, making it a trusted partner for food manufacturers, restaurants, and spice distributors.",
+        "description_4": "With a focus on customer satisfaction, Airborne Exports continues to build its reputation as a reliable supplier of top-tier coriander powder across the globe."
+    },
+    "cumin-powder": {
+        "title": "Cumin Powder",
+        "image": "/assets/images/cumin-powder.jpg",
+        "description": "Airborne Exports is a leading exporter of high-quality cumin powder, renowned for its commitment to delivering premium spices to global markets. Cumin powder, made from the ground seeds of the Cuminum cyminum plant, is a key ingredient in various cuisines, especially in Indian, Middle Eastern, and Mexican cooking. Known for its warm, earthy, and slightly nutty flavor, cumin powder enhances a variety of dishes, including curries, stews, soups, rice dishes, and marinades.",
+        "description_2": "Airborne Exports sources its cumin powder from the finest farms, ensuring that only the best quality cumin seeds are processed. The company uses advanced dehydration and grinding techniques to retain the spice’s natural aroma and flavor, offering a product that meets the highest quality standards. With stringent quality control processes, Airborne Exports ensures that their cumin powder is free from contaminants and has a long shelf life, making it a preferred choice for both bulk buyers and retail clients.",
+        "description_3": "The company offers flexible packaging options, catering to food manufacturers, distributors, and restaurants worldwide. Airborne Exports prides itself on its reliable delivery and customer-focused approach, making it a trusted name in the spice export industry. With its dedication to quality, Airborne Exports continues to be a top supplier of cumin powder across international markets."
+    },
+    "mango": {
+        "title": "Mango",
+        "image": "/assets/images/mango.jpg",
+        "description": "Mangoes, a tropical fruit loved worldwide, are frequently exported by air due to their perishable nature and high demand in international markets. Airborne exports allow mangoes to reach distant markets quickly, ensuring they retain their freshness and quality upon arrival. Countries like India, Mexico, and Thailand, major mango producers, rely on air transport to deliver this prized fruit to destinations such as the United States, Europe, and the Middle East.",
+        "description_2": "The process of airborne mango exports involves several key steps to preserve the fruit’s integrity. Mangoes are carefully harvested when they are at the peak of ripeness, ensuring optimal flavor and texture. After harvesting, they are sorted, packed, and placed in temperature-controlled containers to maintain freshness during transit. The cold chain logistics system plays a crucial role in keeping the mangoes at the right temperature, preventing premature ripening or spoilage.",
+        "description_3": "Air freight, though costlier than sea or land transport, is the preferred method for mango exports because it reduces transit time significantly. This rapid transport ensures that mangoes reach consumers in the best possible condition, maintaining their appeal in global markets. Despite the higher cost, the demand for high-quality, fresh mangoes makes airborne exports an essential part of the global fruit trade."
+    },
+    "banana": {
+        "title": "Banana",
+        "image": "/assets/images/banana.jpg",
+        "description": "Bananas are one of the most popular and widely consumed fruits globally. As a perishable commodity, bananas face challenges in international trade, particularly when it comes to maintaining their freshness during transport. Airborne exports of bananas refer to the practice of shipping the fruit via air cargo to distant markets. This method is often used to meet the demand for fresh bananas in regions far from their growing areas, such as North America, Europe, and Asia.",
+        "description_2": "Air transport is crucial for bananas because it significantly reduces transit time compared to sea freight, which can take several weeks. Since bananas ripen quickly, especially in tropical climates, air shipments ensure they arrive at their destination while still fresh, reducing the risk of spoilage. For instance, bananas grown in Ecuador, the largest banana exporter in the world, are often shipped via air to markets that require immediate delivery.",
+        "description_3": "However, air freight is more expensive than sea shipping, making it a less common option for bulk shipments. It is typically reserved for high-value shipments, premium markets, or urgent deliveries.Despite the higher cost, airborne exports help ensure that bananas can reach consumers quickly, preserving their quality and meeting the demand for fresh fruit in various parts of the world."
+    },
+    "orange": {
+        "title": "Orange",
+        "image": "/assets/images/orange.jpg",
+        "description": "Oranges are one of the most widely exported fruits globally, prized for their sweetness, juiciness, and high vitamin C content. Due to their popularity, oranges are often shipped internationally to meet consumer demand. Airborne exports of oranges refer to the practice of transporting the fruit by air to distant markets, especially when quick delivery is essential for maintaining freshness.",
+        "description_2": "Oranges, like many other fruits, are perishable and can degrade quickly, losing their quality during long transport times. Air freight significantly reduces this risk by offering faster transit compared to sea shipping, which can take weeks. For regions like North America, Europe, and Asia, where fresh oranges are in high demand but not always locally grown, air transport is vital for ensuring the fruit reaches shelves in optimal condition.",
+        "description_3": "Airborne exports of oranges allow retailers and consumers to enjoy the fruit year-round while ensuring its quality remains intact, benefiting both producers and consumers globally."
+    },
+    "pineapple": {
+        "title": "Pineapple",
+        "image": "/assets/images/pineapple.jpg",
+        "description": "Pineapple, a tropical fruit known for its sweet, tangy flavor and high nutritional value, is a major export commodity in countries with warm climates like Costa Rica, the Philippines, and Thailand. Airborne exports of pineapples involve transporting the fruit by air to international markets, often to regions where fresh pineapples are in high demand but not locally grown.",
+        "description_2": "Due to pineapples' relatively short shelf life compared to other fruits, air transport is crucial in preserving their freshness and quality. Airfreight allows for rapid delivery to destinations such as North America, Europe, and parts of Asia, ensuring that the fruit arrives quickly and in optimal condition. This is particularly important because pineapples can spoil during prolonged shipping, especially if they are exposed to unfavorable temperatures or conditions.",
+        "description_3": "Although air cargo is more expensive than sea transport, it is often used for premium markets or high-demand periods when immediate availability of fresh pineapples is necessary. It is also used for small shipments or specific export needs, as air transport provides a faster alternative to sea freight, which can take longer and is more suited for bulk shipments.",
+        "description_4": "Airborne exports of pineapples play a vital role in meeting global demand, enabling retailers and consumers to enjoy the fruit in its freshest form while supporting the economies of major pineapple-producing countries."
+    },
+    "watermelon": {
+        "title": "Watermelon",
+        "image": "/assets/images/watermelon.jpg",
+        "description": "The airborne exports of watermelons is an efficient method for delivering this refreshing, nutrient-packed fruit to distant markets in peak condition. Due to their high water content and delicate structure, watermelons are susceptible to damage and spoilage, making air freight an ideal choice for premium or time-sensitive markets.",
+        "description_2": "Watermelons destined for airborne export are carefully selected for quality and harvested at the optimal stage of ripeness. They undergo stringent inspections to meet international standards, ensuring they are free from pests, diseases, and surface blemishes. Packaging plays a vital role; watermelons are cushioned and secured in reinforced crates or cartons to minimize handling damage during transit.",
+        "description_3": "Temperature-controlled logistics are critical for maintaining freshness. Proper cooling methods are applied pre-transport to preserve the fruit’s texture and flavor. Countries like Spain, Turkey, and Mexico, known for large-scale watermelon production, use air freight to supply fresh produce to global markets, especially during off-seasons in importing regions.",
+        "description_4": "Although air freight is costlier than sea transport, its speed ensures reduced spoilage and longer shelf life upon arrival. By adhering to export regulations and optimizing supply chains, airborne watermelon export connects farmers to high-value international markets, ensuring consumers enjoy fresh, high-quality fruit year-round."
+    },
+    "carrot": {
+        "title": "Carrot",
+        "image": "/assets/images/carrot.jpg",
+        "description": "The airborne exports of carrots is an efficient solution for delivering this versatile and nutrient-rich vegetable to global markets, particularly when freshness and quick delivery are essential. Carrots, though relatively hardy, benefit from air freight for high-value markets where minimal transit time preserves quality and shelf life.",
+        "description_2": "Carrots selected for export are harvested at peak maturity and undergo thorough washing, sorting, and grading to meet international standards. These steps ensure the produce is free from dirt, pests, and imperfections, maintaining its visual appeal and nutritional value. Carrots are typically packed in perforated, moisture-resistant cartons or crates, which facilitate ventilation and reduce the risk of spoilage during transit.",
+        "description_3": "Temperature control is crucial for carrots during export. Pre-cooling and maintaining a consistent cold chain throughout the journey help retain their crispness, flavor, and vibrant color. Major producers like the Netherlands, China, and the United States utilize air freight to supply carrots to distant markets, especially during periods of high demand or seasonal shortages.",
+        "description_4": "Although air freight is more expensive than other methods, its speed and reliability justify the cost for premium markets and specialty varieties. By complying with export regulations and optimizing logistics, airborne carrot export bridges the gap between producers and global consumers, ensuring year-round availability."
+    },
+    "potato": {
+        "title": "Potato",
+        "image": "/assets/images/potato.jpg",
+        "description": "Potatoes, a staple food crop, have become a key player in global trade, particularly through airborne exports. Potatoes are highly versatile, used in cuisines worldwide, and their increasing demand has led to significant exports via air, ensuring freshness and quality.",
+        "description_2": "Airborne exports of potatoes are especially prominent in regions where transportation speed is critical, such as delivering premium varieties or meeting seasonal demands in distant markets. Countries like India, the Netherlands, and the United States, known for their high-quality potato production, actively participate in this trade. The use of advanced packaging methods and temperature-controlled logistics ensures that potatoes remain in pristine condition during transit.",
+        "description_3": "This mode of export is particularly beneficial for niche markets, such as gourmet or seed potatoes, which require extra care. However, the process is resource-intensive and often expensive, making it suitable for high-value potato varieties. Despite the costs, airborne potato exports contribute significantly to economic growth in producing regions, generating income for farmers and enhancing global food supply chains.",
+        "description_4": "As consumer demand for fresh and diverse food products continues to rise, airborne potato exports are likely to expand further. Advances in sustainable aviation and packaging technology may also reduce environmental impacts, making this trade even more viable in the future."
+    },
+    "tomato": {
+        "title": "Tomato",
+        "image": "/assets/images/tomato.jpg",
+        "description": "Tomatoes, one of the most consumed fruits globally, have become a cornerstone of airborne exports. Their versatility in culinary applications, from fresh salads to sauces, drives consistent demand in international markets. Airborne exports play a crucial role in meeting this demand, ensuring rapid delivery of fresh, high-quality tomatoes to distant locations.",
+        "description_2": "Countries such as Mexico, Spain, and the Netherlands are major exporters, leveraging advanced agricultural techniques to produce premium tomato varieties. Air transport is especially favored for high-value tomatoes, like cherry or heirloom types, where freshness and visual appeal are paramount. To maintain quality, these exports rely on sophisticated packaging and temperature-controlled logistics that minimize spoilage and preserve taste.",
+        "description_3": "The growing popularity of organic and specialty tomatoes has further fueled airborne exports, catering to niche markets willing to pay a premium. However, challenges such as high transportation costs and environmental concerns persist. Innovations in packaging and sustainable aviation technologies are gradually addressing these issues, making the process more efficient and eco-friendly.",
+        "description_4": "Airborne tomato exports are a testament to the evolving global food supply chain. As consumer demand for fresh and exotic produce continues to rise, the role of air transport in delivering farm-to-fork freshness is becoming indispensable."
+    },
+    "onion": {
+        "title": "Onion",
+        "image": "/assets/images/onion.jpg",
+        "description": "Onions are not only a vital component of daily meals but also a valuable export crop for many countries. The global demand for fresh onions has seen consistent growth, and air transport has emerged as an important means of delivering this essential commodity swiftly and efficiently across borders. Airborne exports of onions enable the rapid movement of both large quantities and high-value varieties to meet the demands of international markets, particularly in regions where onions are not readily available or during off-season periods.",
+        "description_2": "Onions, a staple ingredient in cuisines worldwide, are an essential export commodity, with airborne transport playing a crucial role in their global trade. Known for their versatility and long shelf life, onions are exported to meet the demands of markets where local supply is limited or seasonal shortages occur.",
+        "description_3": "Sophisticated packaging methods, including ventilated crates and temperature-controlled storage, minimize spoilage during transit. Airborne exports also enable exporters to respond quickly to sudden market demands caused by disruptions like natural disasters or supply chain bottlenecks.",
+        "description_4": "However, the high cost of air transport and environmental concerns pose challenges to the sustainability of this trade. Innovations in energy-efficient aviation and eco-friendly packaging are helping to address these issues. As global demand for fresh produce rises, airborne onion exports are likely to remain a key component of the international food supply chain."
+    },
+    "cabbage": {
+        "title": "Cabbage",
+        "image": "/assets/images/cabbage.jpg",
+        "description": "Cabbages, a fundamental vegetable in many cuisines, are an important export commodity globally. While they have a long shelf life compared to some fresh produce, airborne exports play a vital role in ensuring that cabbage varieties reach distant markets with minimal delay, retaining their freshness and quality.",
+        "description_2": "The speed of air freight makes it an ideal solution for exporting cabbage to markets where freshness is a top priority. Advanced packaging techniques, including moisture control and ventilation, are employed to prevent wilting and spoilage during transit. Airborne shipments also help overcome logistical challenges caused by seasonal fluctuations, offering a reliable way to meet year-round demand in countries with off-seasons.",
+        "description_3": "While air transport is more expensive compared to sea freight, it ensures the preservation of the cabbage’s quality, particularly in high-end markets where consumers are willing to pay a premium for fresh produce. With increasing demand for organic and specialty vegetables, airborne cabbage exports are expected to remain essential for global food supply chains, though sustainability efforts are being explored to reduce the environmental impact of air freight."
+    },
+    "corn": {
+        "title": "Corn",
+        "image": "/assets/images/corn.jpg",
+        "description": "Corn, one of the world's most widely consumed crops, plays a crucial role in global food and industrial markets. While it is typically transported by sea in bulk for large-scale trade, airborne exports are increasingly used for specific high-value varieties and urgent shipments, ensuring that corn reaches international markets swiftly and in excellent condition.",
+        "description_2": "The speed of air freight allows exporters to meet sudden market demands, overcome logistical challenges, and prevent delays that could compromise the quality of corn. For smaller shipments or premium corn types, airborne transport ensures that the product remains fresh and maintains its nutritional and sensory properties.",
+        "description_3": "Despite its higher costs compared to sea freight, airborne corn exports are necessary for markets that demand quick delivery or have specific quality standards. As consumer interest in niche corn varieties continues to rise, airborne exports will play an increasingly important role in global supply chains, with innovations in packaging and more sustainable aviation practices helping reduce the environmental impact."
     }
 }

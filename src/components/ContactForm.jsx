@@ -14,7 +14,7 @@ const ContactForm = ({ inquiryFor }) => {
           </div>
           <div className="space-y-3 mt-16 xl:pr-44">
             <div>
-              <h4 className="text-sm font-semibold uppercase">discription</h4>
+              <h4 className="text-sm font-semibold uppercase">description</h4>
               <p className="text-base">
                 We're here to help with any questions or inquiries. Reach out to
                 Airborne Export today! We look forward to connecting with you!

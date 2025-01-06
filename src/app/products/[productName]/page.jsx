@@ -93,7 +93,7 @@ export default function Product({ params }) {
                     <div className="flex flex-col lg:flex-row gap-10 lg:gap-20 items-center">
                         <div className={`w-full ${details || healthBenefits ? "lg:w-1/2" : "max-w-3xl mx-auto"} flex justify-center`}>
                             <div className="p-4 border-2 border-gray-300 rounded-lg w-full">
-                                <img src={image} alt={title} className="rounded-lg object-contain mx-auto" />
+                                <img src={image} alt={title} className="rounded-lg object-contain mx-auto w-full" />
                             </div>
                         </div>
                         {details && (
@@ -101,7 +101,7 @@ export default function Product({ params }) {
                                 <ProductTable details={details} />
                                 <button
                                     onClick={handleScroll}
-                                    className="mt-6 w-full py-2 bg-gray-300 text-gray-800 font-semibold rounded-md hover:bg-gray-400 transition"
+                                    className="mt-6 inline-block w-full lg:w-auto px-20 py-2 bg-skin text-black font-semibold rounded-full hover:opacity-85 transition"
                                 >
                                     Inquire Now
                                 </button>

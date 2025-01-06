@@ -40,8 +40,6 @@ export default function BrandSlider() {
             image: "brand3.svg",
         }, {
             image: "brand4.svg",
-        }, {
-            image: "brand5.svg",
         },
         {
             image: "brand2.svg",

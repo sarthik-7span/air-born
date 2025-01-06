@@ -11,12 +11,16 @@ module.exports = {
         background: "var(--background)",
         foreground: "var(--foreground)",
         'primary': '#094aa4',
+        'skin': "#CDC3BB"
       },
       backgroundSize: {
         '100-auto': '100% auto',
       },
       backgroundPosition: {
         '-top-10': 'center top -10rem',
+      },
+      boxShadow: {
+        product: "0px 0px 15px 0px #00000099"
       }
     },
   },

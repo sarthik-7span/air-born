@@ -26,7 +26,7 @@ const Product = () => {
     },
     {
       name: "Star Anise",
-      image: "/assets/images/star-anise.jpg",
+      image: "/assets/images/star-anise.png",
     },
     {
       name: "Cumin",
@@ -185,11 +185,11 @@ const Product = () => {
         <h5 className="text-center uppercase text-black font-semibold text-4xl md:text-5xl">
           ground spices
         </h5>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-10 mt-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-28 mt-12">
           {products.map((product, index) => (
             <Link href={`/products/${product.name.trim().toLowerCase().replace(/\s+/g, '-')}`}
               key={index}>
-              <div className="h-60">
+              <div className="h-60 bg-white rounded-md overflow-hidden shadow-product border border-gray-500">
                 <img
                   src={product.image}
                   alt={product.name}
@@ -207,11 +207,11 @@ const Product = () => {
         <h5 className="text-center uppercase text-black font-semibold text-4xl md:text-5xl">
           whole spices
         </h5>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-10 mt-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-28 mt-12">
           {wholeSpices.map((product, index) => (
             <Link href={`/products/${product.name.trim().toLowerCase().replace(/\s+/g, '-')}`}
               key={index}>
-              <div className="h-60">
+              <div className="h-60 bg-white rounded-md overflow-hidden shadow-product border border-gray-500">
                 <img
                   src={product.image}
                   alt={product.name}
@@ -228,11 +228,11 @@ const Product = () => {
       <section className="pb-10 px-4 lg:pb-24 2xl:px-24">
         <h5 className="text-center uppercase text-black font-semibold text-4xl md:text-5xl">
           others        </h5>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-10 mt-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-28 mt-12">
           {others.map((product, index) => (
             <Link href={`/products/${product.name.trim().toLowerCase().replace(/\s+/g, '-')}`}
               key={index}>
-              <div className="h-60">
+              <div className="h-60 bg-white rounded-md overflow-hidden shadow-product border border-gray-500">
                 <img
                   src={product.image}
                   alt={product.name}

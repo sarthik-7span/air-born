@@ -47,7 +47,7 @@ const ContactForm = ({ inquiryFor }) => {
           </div>
         </div>
         <div className="flex-1">
-          <form action="#" className="space-y-8">
+          <form action="https://formsubmit.co/e781f49fd4a35df31dc85db6160ed94d" method="POST" className="space-y-8">
             <div>
               <label
                 htmlFor="name"
@@ -109,7 +109,19 @@ const ContactForm = ({ inquiryFor }) => {
             </div>
             {
               inquiryFor && <div>
-                <p>Enquiry  Product: <span className="font-bold">{inquiryFor}</span></p>
+                <label
+                  htmlFor="inqiery"
+                  className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300 capitalize"
+                >
+                  Enquiry Product:
+                </label>
+                <input
+                  type="text"
+                  id="inqiery"
+                  className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-0 focus:border-primary block w-full p-2.5"
+                  value={inquiryFor}
+                  disabled
+                />
               </div>
             }
             <button

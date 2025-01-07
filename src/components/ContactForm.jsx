@@ -47,17 +47,22 @@ const ContactForm = ({ inquiryFor }) => {
           </div>
         </div>
         <div className="flex-1">
-          <form action="https://formsubmit.co/e781f49fd4a35df31dc85db6160ed94d" method="POST" className="space-y-8">
+          <form
+            action="https://formsubmit.co/e781f49fd4a35df31dc85db6160ed94d"
+            method="POST"
+            className="space-y-8"
+          >
             <div>
               <label
                 htmlFor="name"
                 className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300 capitalize"
               >
-                name
+                Name
               </label>
               <input
-                type="name"
+                type="text"
                 id="name"
+                name="name"
                 className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-0 focus:border-primary block w-full p-2.5"
                 placeholder="Enter your name"
                 required
@@ -68,11 +73,12 @@ const ContactForm = ({ inquiryFor }) => {
                 htmlFor="number"
                 className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300 capitalize"
               >
-                number
+                Number
               </label>
               <input
                 type="number"
                 id="number"
+                name="number"
                 className="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-0 focus:border-primary"
                 placeholder="Enter phone number"
                 required
@@ -83,11 +89,12 @@ const ContactForm = ({ inquiryFor }) => {
                 htmlFor="email"
                 className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300 capitalize"
               >
-                your email
+                Your Email
               </label>
               <input
                 type="email"
                 id="email"
+                name="email"
                 className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-0 focus:border-primary block w-full p-2.5"
                 placeholder="Enter your email"
                 required
@@ -98,17 +105,18 @@ const ContactForm = ({ inquiryFor }) => {
                 htmlFor="message"
                 className="block mb-2 text-sm font-medium text-gray-900 capitalize"
               >
-                your message
+                Your Message
               </label>
               <textarea
                 id="message"
+                name="message"
                 rows="6"
-                className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-0 focus:border-primary "
+                className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-0 focus:border-primary"
                 placeholder="Leave a comment..."
               ></textarea>
             </div>
-            {
-              inquiryFor && <div>
+            {inquiryFor && (
+              <div>
                 <label
                   htmlFor="inqiery"
                   className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300 capitalize"
@@ -118,17 +126,18 @@ const ContactForm = ({ inquiryFor }) => {
                 <input
                   type="text"
                   id="inqiery"
+                  name="inquiry"
                   className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-0 focus:border-primary block w-full p-2.5"
                   value={inquiryFor}
                   disabled
                 />
               </div>
-            }
+            )}
             <button
               type="submit"
               className="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 opacity-95 hover:opacity-100"
             >
-              Send message
+              Send Message
             </button>
           </form>
         </div>

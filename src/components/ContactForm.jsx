@@ -62,7 +62,7 @@ const ContactForm = ({ inquiryFor }) => {
               <input
                 type="text"
                 id="name"
-                name="name"
+                name="Name"
                 className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-0 focus:border-primary block w-full p-2.5"
                 placeholder="Enter your name"
                 required
@@ -73,12 +73,12 @@ const ContactForm = ({ inquiryFor }) => {
                 htmlFor="number"
                 className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300 capitalize"
               >
-                Number
+                Phone Number
               </label>
               <input
                 type="number"
                 id="number"
-                name="number"
+                name="Phone number"
                 className="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-0 focus:border-primary"
                 placeholder="Enter phone number"
                 required
@@ -94,7 +94,7 @@ const ContactForm = ({ inquiryFor }) => {
               <input
                 type="email"
                 id="email"
-                name="email"
+                name="Email id"
                 className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-0 focus:border-primary block w-full p-2.5"
                 placeholder="Enter your email"
                 required
@@ -109,24 +109,24 @@ const ContactForm = ({ inquiryFor }) => {
               </label>
               <textarea
                 id="message"
-                name="message"
+                name="Message"
                 rows="6"
                 className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-0 focus:border-primary"
-                placeholder="Leave a comment..."
+                placeholder="Leave a message..."
               ></textarea>
             </div>
             {inquiryFor && (
               <div>
                 <label
-                  htmlFor="inqiery"
+                  htmlFor="Enquiry"
                   className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300 capitalize"
                 >
                   Enquiry Product:
                 </label>
                 <input
                   type="text"
-                  id="inqiery"
-                  name="inquiry"
+                  id="Enquiry"
+                  name="Enquiry product"
                   className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-0 focus:border-primary block w-full p-2.5"
                   value={inquiryFor}
                   readOnly

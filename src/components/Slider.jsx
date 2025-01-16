@@ -53,7 +53,7 @@ export default function SlickSlider() {
     <Slider className="Product__slider" {...settings}>
       {products.map((product, index) => (
         <div key={index}>
-          <div className="flex flex-col items-center bg-white shadow-md mx-4 my-2 rounded-md overflow-hidden">
+          <Link href="/products" className="group flex flex-col items-center bg-white shadow-md mx-4 my-2 rounded-md overflow-hidden">
             <img
               src={`/assets/images/${product.image}`}
               alt={product.title}
@@ -62,16 +62,16 @@ export default function SlickSlider() {
             <div className="p-8 text-center">
               <h3 className="text-xl font-bold uppercase">{product.title}</h3>
               <p className="text-gray-500 my-4 font-bold">{product.description}</p>
-              <Link href="/products" className="group px-4 py-2 hover:bg-gray-50 font-bold text-xl text-black inline-flex gap-3 items-center mx-auto rounded">
+              <div href="/products" className="px-4 py-2 hover:bg-gray-50 font-bold text-xl text-black inline-flex gap-3 items-center mx-auto rounded">
                 Show MORE
                 <span className="duration-700 group-hover:translate-x-2">
                   <svg width="20" height="20" viewBox="0 0 43 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M42.0724 9.69629L25.7309 0.261491V19.1311L42.0724 9.69629ZM0.673828 11.3304H27.365V8.06213H0.673828V11.3304Z" fill="black" />
                   </svg>
                 </span>
-              </Link>
+              </div>
             </div>
-          </div>
+          </Link>
         </div>
       ))}
     </Slider>

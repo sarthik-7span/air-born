@@ -26,7 +26,7 @@ const Product = () => {
     },
     {
       name: "Star Anise",
-      image: "/assets/images/star-anise.png",
+      image: "/assets/images/star-anise.jpg",
     },
     {
       name: "Cumin",
@@ -173,19 +173,16 @@ const Product = () => {
 
   return (
     <main>
-      {/* Hero Section */}
       <section className="bg-[url('/assets/images/product-banner.jpg')] py-24 md:py-36 bg-no-repeat bg-cover bg-center">
         <h1 className="px-4 mx-auto text-3xl md:text-4xl max-w-7xl text-center font-semibold text-black uppercase">
           OUR PRODUCTS
         </h1>
       </section>
-
-      {/* Products Section */}
       <section className="py-10 px-4 lg:py-24 2xl:px-24">
         <h5 className="text-center uppercase text-black font-semibold text-4xl md:text-5xl">
           ground spices
         </h5>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-28 mt-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-20 mt-12">
           {products.map((product, index) => (
             <Link href={`/products/${product.name.trim().toLowerCase().replace(/\s+/g, '-')}`}
               key={index}>
@@ -207,7 +204,7 @@ const Product = () => {
         <h5 className="text-center uppercase text-black font-semibold text-4xl md:text-5xl">
           whole spices
         </h5>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-28 mt-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-20 mt-12">
           {wholeSpices.map((product, index) => (
             <Link href={`/products/${product.name.trim().toLowerCase().replace(/\s+/g, '-')}`}
               key={index}>
@@ -228,7 +225,7 @@ const Product = () => {
       <section className="pb-10 px-4 lg:pb-24 2xl:px-24">
         <h5 className="text-center uppercase text-black font-semibold text-4xl md:text-5xl">
           others        </h5>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-28 mt-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-20 mt-12">
           {others.map((product, index) => (
             <Link href={`/products/${product.name.trim().toLowerCase().replace(/\s+/g, '-')}`}
               key={index}>

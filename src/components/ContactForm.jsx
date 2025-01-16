@@ -4,7 +4,7 @@ const ContactForm = ({ inquiryFor }) => {
 
   return (
     <div className="px-4 mx-auto max-w-7xl py-10 md:py-16 sm:px-6 lg:px-8">
-      <div className="flex flex-col md:flex-row gap-10 lg:gap-24">
+      <div className="flex flex-col-reverse md:flex-row gap-10 lg:gap-24">
         <div className="flex-1 ">
           <div>
             <span className="uppercase text-sm">Contact Now</span>
@@ -32,10 +32,10 @@ const ContactForm = ({ inquiryFor }) => {
             <div>
               <h4 className="text-sm font-semibold uppercase">Email</h4>
               <a
-                href="mailto:info@airborne.com"
+                href="mailto:info@airborneexports.com"
                 className="text-base text-black hover:underline"
               >
-                info@airborne.com
+                info@airborneexports.com
               </a>
             </div>
             <div>
@@ -48,7 +48,7 @@ const ContactForm = ({ inquiryFor }) => {
         </div>
         <div className="flex-1">
           <form
-            action="https://formsubmit.co/e781f49fd4a35df31dc85db6160ed94d"
+            action="https://formsubmit.co/sarthikkevadiya99799@gmail.com"
             method="POST"
             className="space-y-8"
           >

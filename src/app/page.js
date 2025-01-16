@@ -52,7 +52,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="relative bg-[url('/assets/images/map-bg.jpg')] bg-100-auto bg-bottom bg-no-repeat py-11 lg:py-16">
+      <div className="relative md:bg-[url('/assets/images/map-bg.jpg')] bg-100-auto bg-bottom bg-no-repeat py-11 lg:py-16">
         <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8 text-center relative z-10 text-black">
           <div className="relative block text-2xl mb-10 text-left font-semibold text-black">
             Original & Trusted
@@ -63,7 +63,7 @@ export default function Home() {
             Authentic Indian Goods to the World
           </h3>
           <div className="space-y-3 mt-6 lg:mt-20 text-sm lg:text-base">
-            <h6 className="font-bold text-sm sm:text-xl lg:text-3xl mb-10">
+            <h6 className="font-bold text-base sm:text-xl lg:text-3xl mb-6 md:mb-10">
               You Deserve Quality. <br />
               We Deliver Excellence Across Industries Worldwide.
             </h6>

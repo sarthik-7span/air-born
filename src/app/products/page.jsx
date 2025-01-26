@@ -38,7 +38,7 @@ const Product = () => {
     },
     {
       name: "Basmati Rice",
-      image: "/assets/images/basmati-rice.jpg",
+      image: "/assets/images/basmati-rices.jpg",
     },
     {
       name: "Non-Basmati Rice",

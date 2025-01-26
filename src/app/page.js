@@ -8,7 +8,7 @@ import InfoCard from "@/components/InfoCard";
 import ContactForm from "@/components/ContactForm";
 import underline from "../../public/assets/icons/underline.png"
 import BrandSlider from "@/components/BrandSlider";
-import testimonialProfile from "../../public/assets/images/Rectangle1.jpg"
+import CoverSlider from "@/components/CoverSlider";
 export default function Home() {
   const cardData = [
     {
@@ -40,19 +40,8 @@ export default function Home() {
   ];
   return (
     <main>
-      <div className="bg-[url('/assets/images/high-angle-asian.jpg')] bg-no-repeat bg-cover bg-center py-20 lg:py-64">
-        <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
-          <div className="md:w-2/3 xl:w-1/2 text-black">
-            <h1 className="text-4xl font-semibold lg:text-7xl">
-              Textline Here
-            </h1>
-            <p className="text-sm mt-4 lg:text-2xl">
-              At Airborne Export, we take pride in being a leading merchant-based exporter, delivering the best of India's diverse and high-quality products to customers around the globe.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div className="relative md:bg-[url('/assets/images/map-bg.jpg')] bg-100-auto bg-bottom bg-no-repeat py-11 lg:py-16">
+        <CoverSlider/>
+      <div className="relative bg-[url('/assets/images/import1.jpg')] bg-cover bg-right md:bg-center bg-no-repeat py-11 lg:py-16 before:content-['*'] before:absolute before:inset-0 before:bg-gray-50/40 before:blur-lg">
         <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8 text-center relative z-10 text-black">
           <div className="relative block text-2xl mb-10 text-left font-semibold text-black">
             Original & Trusted
@@ -81,11 +70,13 @@ export default function Home() {
         </div>
       </div>
       <div className="py-12">
-        <div className="text-center mb-10 md:mb-20 space-y-3">
+        <div className="text-center mb-10 md:mb-16 space-y-3">
           <h2 className="text-3xl md:text-4xl font-bold">Product Range</h2>
           <p className="text-black mt-5 uppercase">Authentic products, crafted for the world</p>
         </div>
-        <SlickSlider />
+        <div className="mx-auto max-w-7xl">
+          <SlickSlider />
+        </div>
       </div>
       <div className="px-4 mx-auto max-w-7xl py-11 md:py-16 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-11 lg:px-32">
@@ -102,27 +93,6 @@ export default function Home() {
       </div>
       <div className="py-12">
         <BrandSlider />
-      </div>
-      <div className="max-w-7xl mx-auto p-4 py-10 text-center">
-        <p className="text-base text-black mb-4 uppercase">Our Testimonials</p>
-        <h2 className="text-black text-3xl md:text-4xl font-bold">What They Are Talking About</h2>
-        <div className="flex flex-col md:flex-row gap-12 items-center mt-8">
-          <div className="flex-shrink-0 relative w-52 h-52 rounded-full overflow-hidden shadow-md">
-            <Image
-              src={testimonialProfile}
-              alt="Customer Image"
-              className="w-full h-full object-cover"
-            />
-            <span className="absolute top-0 left-0 w-6 h-6 bg-gray-200 rounded-full transform -translate-x-2 -translate-y-2"></span>
-          </div>
-          <div className="w-full text-left">
-            <p className="text-lg text-gray-700">
-              Contant here
-            </p>
-            <h3 className="text-xl font-semibold text-black mt-4">Tirup Vaghasiya</h3>
-            <p className="text-base text-grtext-blackay-500">Customer</p>
-          </div>
-        </div>
       </div>
       <ContactForm />
     </main >

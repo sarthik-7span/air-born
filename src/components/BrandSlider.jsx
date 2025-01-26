@@ -9,12 +9,13 @@ export default function BrandSlider() {
     var settings = {
         dots: false,
         infinite: true,
-        arrows: true,
-        speed: 500,
-        slidesToShow: 5,
+        arrows: false,
+        speed: 1000,
+        slidesToShow: 4,
         slidesToScroll: 1,
         centerMode: true,
-
+        autoplay: true,
+        autoplaySpeed: 2000,
         centerPadding: '60px',
 
         responsive: [
@@ -43,6 +44,14 @@ export default function BrandSlider() {
         },
         {
             image: "brand2.svg",
+        },
+        {
+            image: "brand5.png",
+        },
+        {
+            image: "brand6.png",
+        }, {
+            image: "brand7.png",
         }
     ];
     return (

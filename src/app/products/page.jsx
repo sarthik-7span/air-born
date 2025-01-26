@@ -169,24 +169,22 @@ const Product = () => {
       image: "/assets/images/corn.jpg",
     },
   ];
-
-
   return (
     <main>
       <section className="bg-[url('/assets/images/product-banner.jpg')] py-24 md:py-36 bg-no-repeat bg-cover bg-center">
         <h1 className="px-4 mx-auto text-3xl md:text-4xl max-w-7xl text-center font-semibold text-black uppercase">
-          OUR PRODUCTS
+          out products
         </h1>
       </section>
       <section className="py-10 px-4 lg:py-24 2xl:px-24">
-        <h5 className="text-center uppercase text-black font-semibold text-4xl md:text-5xl">
+        <h5 className="text-center uppercase text-black font-semibold text-3xl xl:text-5xl">
           ground spices
         </h5>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-20 mt-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 lg:gap-14 mt-12">
           {products.map((product, index) => (
-            <Link href={`/products/${product.name.trim().toLowerCase().replace(/\s+/g, '-')}`}
+            <Link className="hover:scale-105 duration-500" href={`/products/category/${product.name.trim().toLowerCase().replace(/\s+/g, '-')}`}
               key={index}>
-              <div className="h-60 bg-white rounded-md overflow-hidden shadow-product border border-gray-500">
+              <div className="h-60 3xl:h-72 bg-white rounded-md overflow-hidden shadow-product border border-gray-500">
                 <img
                   src={product.image}
                   alt={product.name}
@@ -201,14 +199,14 @@ const Product = () => {
         </div>
       </section>
       <section className="pb-10 px-4 lg:pb-24 2xl:px-24">
-        <h5 className="text-center uppercase text-black font-semibold text-4xl md:text-5xl">
+        <h5 className="text-center uppercase text-black font-semibold text-3xl xl:text-5xl">
           whole spices
         </h5>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-20 mt-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 lg:gap-14 mt-12">
           {wholeSpices.map((product, index) => (
-            <Link href={`/products/${product.name.trim().toLowerCase().replace(/\s+/g, '-')}`}
+            <Link className="hover:scale-105 duration-500" href={`/products/category/${product.name.trim().toLowerCase().replace(/\s+/g, '-')}`}
               key={index}>
-              <div className="h-60 bg-white rounded-md overflow-hidden shadow-product border border-gray-500">
+              <div className="h-60 3xl:h-72 bg-white rounded-md overflow-hidden shadow-product border border-gray-500">
                 <img
                   src={product.image}
                   alt={product.name}
@@ -223,13 +221,13 @@ const Product = () => {
         </div>
       </section>
       <section className="pb-10 px-4 lg:pb-24 2xl:px-24">
-        <h5 className="text-center uppercase text-black font-semibold text-4xl md:text-5xl">
+        <h5 className="text-center uppercase text-black font-semibold text-3xl xl:text-5xl">
           others        </h5>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-20 mt-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 lg:gap-14 mt-12">
           {others.map((product, index) => (
-            <Link href={`/products/${product.name.trim().toLowerCase().replace(/\s+/g, '-')}`}
+            <Link className="hover:scale-105 duration-500" href={`/products/category/${product.name.trim().toLowerCase().replace(/\s+/g, '-')}`}
               key={index}>
-              <div className="h-60 bg-white rounded-md overflow-hidden shadow-product border border-gray-500">
+              <div className="h-60 3xl:h-72 bg-white rounded-md overflow-hidden shadow-product border border-gray-500">
                 <img
                   src={product.image}
                   alt={product.name}

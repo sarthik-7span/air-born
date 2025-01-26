@@ -83,28 +83,7 @@ const Footer = () => {
               </Link>
             </div>
           </div>
-
-          {/* Useful Links */}
-          {/* <div className="lg:col-start-3">
-            <h3 className="text-lg font-semibold mb-4">Useful Links</h3>
-            <ul className="space-y-2 text-sm text-gray-700">
-              <li>
-                <Link href="#">Our Services</Link>
-              </li>
-              <li>
-                <Link href="#">Testimonials</Link>
-              </li>
-              <li>
-                <Link href="#">About Us</Link>
-              </li>
-              <li>
-                <Link href="#">Contact Us</Link>
-              </li>
-            </ul>
-          </div> */}
         </div>
-
-        {/* Copyright */}
         <div className="mt-12 border-t border-gray-200 pt-4 flex flex-col md:flex-row justify-between items-center text-sm text-gray-500">
           <p>Copyright ©Airborneexports. All Rights Reserved.</p>
           <div className="space-x-4 mt-4 md:mt-0">

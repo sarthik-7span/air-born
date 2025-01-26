@@ -48,10 +48,28 @@ const ContactForm = ({ inquiryFor }) => {
         </div>
         <div className="flex-1">
           <form
-            action="https://formsubmit.co/sarthikkevadiya99799@gmail.com"
+            action="https://formsubmit.co/e781f49fd4a35df31dc85db6160ed94d"
             method="POST"
             className="space-y-8"
           >
+            {inquiryFor && (
+              <div>
+                <label
+                  htmlFor="Enquiry"
+                  className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300 capitalize"
+                >
+                  Enquiry Product:
+                </label>
+                <input
+                  type="text"
+                  id="Enquiry"
+                  name="Enquiry product"
+                  className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-0 focus:border-primary block w-full p-2.5"
+                  value={inquiryFor}
+                  readOnly
+                />
+              </div>
+            )}
             <div>
               <label
                 htmlFor="name"
@@ -115,24 +133,6 @@ const ContactForm = ({ inquiryFor }) => {
                 placeholder="Leave a message..."
               ></textarea>
             </div>
-            {inquiryFor && (
-              <div>
-                <label
-                  htmlFor="Enquiry"
-                  className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300 capitalize"
-                >
-                  Enquiry Product:
-                </label>
-                <input
-                  type="text"
-                  id="Enquiry"
-                  name="Enquiry product"
-                  className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-0 focus:border-primary block w-full p-2.5"
-                  value={inquiryFor}
-                  readOnly
-                />
-              </div>
-            )}
             <button
               type="submit"
               className="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 opacity-95 hover:opacity-100"

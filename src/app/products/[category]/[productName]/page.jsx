@@ -5,7 +5,7 @@ import ContactForm from "@/components/ContactForm";
 import product from "@/data/products.json";
 
 const ProductDescription = ({ descriptions }) => (
-    <div className="text-left md:text-center text-lg space-y-5 mt-12 lg:mt-20">
+    <div className="text-left md:text-center text-lg space-y-5 mt-12 lg:mt-16">
         {descriptions.map((desc, index) => (
             <p key={index} className="text-gray-700 leading-relaxed">{desc}</p>
         ))}
@@ -91,7 +91,7 @@ export default function Product({ params }) {
                 <div className="bg-white py-10 p-4 mx-auto max-w-7xl">
                     <h1 className="text-2xl font-bold text-center mb-6 capitalize lg:text-4xl">{title}</h1>
                     <div className="flex flex-col lg:flex-row gap-10 lg:gap-20 items-center">
-                        <div className={`w-full ${details || healthBenefits ? "flex justify-center lg:w-1/2" : "max-w-3xl mx-auto"}`}>
+                        <div className={`w-full ${details || healthBenefits ? "flex justify-center lg:w-1/2" : "max-w-md mx-auto"}`}>
                             <div className="p-4 border-2 border-gray-300 rounded-lg w-full">
                                 <img src={image} alt={title} className="rounded-lg object-contain mx-auto w-full" />
                             </div>
@@ -99,7 +99,7 @@ export default function Product({ params }) {
                                 <div className="text-center">
                                     <button
                                         onClick={handleScroll}
-                                        className="mt-6 inline-block w-full md:w-auto px-20 py-2 bg-skin text-black font-semibold rounded-full hover:opacity-85 transition"
+                                        className="mt-6 inline-block w-full md:w-auto px-20 py-2 bg-primary text-white font-semibold rounded-md hover:bg-blue-900 transition"
                                     >
                                         Inquire Now
                                     </button>
@@ -111,7 +111,7 @@ export default function Product({ params }) {
                                 <ProductTable details={details} />
                                 <button
                                     onClick={handleScroll}
-                                    className="mt-6 inline-block w-full lg:w-auto px-20 py-2 bg-skin text-black font-semibold rounded-full hover:opacity-85 transition"
+                                    className="mt-6 inline-block w-full lg:w-auto px-20 py-2 bg-primary text-white font-semibold rounded-full hover:bg-blue-900 transition"
                                 >
                                     Inquire Now
                                 </button>

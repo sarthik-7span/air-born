@@ -123,6 +123,14 @@ body {
   z-index: 40;
 }
 
+.testimonial-slider .slick-track .slick-slide {
+  padding: 0 20px;
+}
+
+.testimonial-slider .slick-dots {
+  bottom: -50px;
+}
+
 @media screen and (max-width: 1024px) {
   .Product__slider .slick-next {
     right: 44%;
@@ -140,5 +148,24 @@ body {
 
   .Product__slider .slick-prev {
     left: 38%;
+  }
+
+  .testimonial-slider .slick-track .slick-slide {
+    padding: 0 5px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .Product__slider .slick-slide.slick-active.slick-current+.slick-slide.slick-active {
+    transition: all ease-in-out 0.5s;
+  }
+
+  .Product__slider .slick-slide.slick-active.slick-current+.slick-slide.slick-active {
+    transform: scale(1.1);
+    padding: 0 10px;
+  }
+
+  .Product__slider .slick-track {
+    padding: 30px 0;
   }
 }

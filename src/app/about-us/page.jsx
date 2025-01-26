@@ -21,7 +21,7 @@ const page = () => {
                         <div className="grid relative grid-cols-1 lg:grid-cols-2 items-start justify-between gap-16">
                             <div className="text-center lg:before:content-[''] lg:before:absolute lg:before:left-1/2 lg:before:transform lg:before:-translate-x-1/2 lg:before:top-0 lg:before:h-full lg:before:w-[1px] lg:before:bg-primary/10">
                                 <div className="text-center">
-                                    <h3 className="text-3xl font-bold text-black mb-4 inline-block relative before:content-[''] before:block before:w-12 md:before:w-16 before:h-[2px] before:bg-primary before:absolute before:top-1/2 before:-translate-y-1/2 before:right-[103%] after:content-[''] after:block after:w-12 md:after:w-16 after:h-[2px] after:bg-primary after:absolute after:top-1/2 after:-translate-y-1/2 after:left-[103%]">What We Are</h3>
+                                    <h3 className="text-3xl font-bold text-black mb-4 inline-block relative before:content-[''] before:block before:w-12 md:before:w-14 before:h-[1px] before:bg-primary before:absolute before:top-1/2 before:-translate-y-1/2 before:right-[103%] after:content-[''] after:block after:w-12 md:after:w-14 after:h-[1px] after:bg-primary after:absolute after:top-1/2 after:-translate-y-1/2 after:left-[103%]">What We Are</h3>
                                 </div>
                                 <p className="text-gray-600 text-left lg:text-center">
                                     <strong>Airborne Exports</strong> is a certified Indian export business committed to delivering the finest Indian products to customers across the globe. Driven by a vision to connect India’s rich and diverse offerings with international markets, we specialize in meeting global demands with <strong>quality and reliability</strong>.
@@ -29,7 +29,7 @@ const page = () => {
                             </div>
                             <div className="text-center">
                                 <div className="text-center">
-                                    <h3 className="text-3xl font-bold text-black mb-4 inline-block relative before:content-[''] before:block before:w-12 md:before:w-16 before:h-[2px] before:bg-primary before:absolute before:top-1/2 before:-translate-y-1/2 before:right-[103%] after:content-[''] after:block after:w-12 md:after:w-16 after:h-[2px] after:bg-primary after:absolute after:top-1/2 after:-translate-y-1/2 after:left-[103%]">What We Serve</h3>
+                                    <h3 className="text-3xl font-bold text-black mb-4 inline-block relative before:content-[''] before:block before:w-12 md:before:w-14 before:h-[1px] before:bg-primary before:absolute before:top-1/2 before:-translate-y-1/2 before:right-[103%] after:content-[''] after:block after:w-12 md:after:w-14 after:h-[1px] after:bg-primary after:absolute after:top-1/2 after:-translate-y-1/2 after:left-[103%]">What We Serve</h3>
                                 </div>
                                 <p className="text-gray-600 text-left lg:text-center mb-4">We export a wide range of premium Indian products, including:</p>
                                 <ul className="list-disc text-left list-inside text-gray-600">

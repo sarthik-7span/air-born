@@ -38,14 +38,14 @@ const WhyChooseUs = () => {
         <section className="py-12 px-4 sm:px-8 lg:px-16 mx-auto max-w-7xl">
             <div className="text-center mb-12">
                 <div className="text-center">
-                    <h3 className="text-3xl font-bold uppercase text-black mb-4 inline-block relative before:content-[''] before:block before:w-12 md:before:w-16 before:h-[2px] before:bg-primary before:absolute before:top-1/2 before:-translate-y-1/2 before:right-[103%] after:content-[''] after:block after:w-12 md:after:w-16 after:h-[2px] after:bg-primary after:absolute after:top-1/2 after:-translate-y-1/2 after:left-[103%]">WHY CHOOSE US</h3>
+                    <h3 className="text-3xl font-bold uppercase text-black mb-4 inline-block relative before:content-[''] before:block before:w-12 md:before:w-14 before:h-[1px] before:bg-primary before:absolute before:top-1/2 before:-translate-y-1/2 before:right-[103%] after:content-[''] after:block after:w-12 md:after:w-14 after:h-[1px] after:bg-primary after:absolute after:top-1/2 after:-translate-y-1/2 after:left-[103%]">WHY CHOOSE US</h3>
                 </div>
-                <p className="text-gray-700 flex gap-2 justify-center items-center">
+                <div className="text-gray-700 flex gap-2 justify-center items-center">
                     <div className="w-6 h-6 flex justify-center items-center">
                         <Image alt="message icon" className="w-full h-full object-contain object-center" src={MessageIcon} />
                     </div>
                     24/7 Dedicated Support
-                </p>
+                </div>
             </div>
 
             <div className="flex flex-col lg:flex-row items-center gap-12">

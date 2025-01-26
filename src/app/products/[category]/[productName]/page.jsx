@@ -90,7 +90,7 @@ export default function Product({ params }) {
             <section>
                 <div className="bg-white py-10 p-4 mx-auto max-w-7xl">
                     <div className="text-center">
-                        <h1 className="text-2xl font-bold text-center mb-8 lg:mb-16 capitalize lg:text-4xl inline-block relative before:content-[''] before:block before:w-12 md:before:w-16 before:h-[2px] before:bg-primary before:absolute before:top-1/2 before:-translate-y-1/2 before:right-[103%] after:content-[''] after:block after:w-12 md:after:w-16 after:h-[2px] after:bg-primary after:absolute after:top-1/2 after:-translate-y-1/2 after:left-[103%]">{title}</h1>
+                        <h1 className="text-2xl font-bold text-center mb-8 lg:mb-16 capitalize lg:text-4xl inline-block relative before:content-[''] before:block before:w-12 md:before:w-14 before:h-[1px] before:bg-primary before:absolute before:top-1/2 before:-translate-y-1/2 before:right-[103%] after:content-[''] after:block after:w-12 md:after:w-14 after:h-[1px] after:bg-primary after:absolute after:top-1/2 after:-translate-y-1/2 after:left-[103%]">{title}</h1>
                     </div>
                     <div className="flex flex-col lg:flex-row gap-10 lg:gap-20 items-center">
                         <div className={`w-full ${details || healthBenefits ? "flex justify-center lg:w-1/2" : "max-w-md mx-auto"}`}>

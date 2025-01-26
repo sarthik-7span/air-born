@@ -72,7 +72,7 @@ export default function Home() {
       <div className="py-12">
         <div className="text-center mb-10 md:mb-16 space-y-3">
           <div className="text-center">
-            <h3 className="text-3xl md:text-4xl font-bold inline-block relative before:content-[''] before:block before:w-12 md:before:w-16 before:h-[2px] before:bg-primary before:absolute before:top-1/2 before:-translate-y-1/2 before:right-[103%] after:content-[''] after:block after:w-12 md:after:w-16 after:h-[2px] after:bg-primary after:absolute after:top-1/2 after:-translate-y-1/2 after:left-[103%]">Product Range</h3>
+            <h3 className="text-3xl md:text-4xl font-bold inline-block relative before:content-[''] before:block before:w-12 md:before:w-14 before:h-[1px] before:bg-primary before:absolute before:top-1/2 before:-translate-y-1/2 before:right-[103%] after:content-[''] after:block after:w-12 md:after:w-14 after:h-[1px] after:bg-primary after:absolute after:top-1/2 after:-translate-y-1/2 after:left-[103%]">Product Range</h3>
           </div>
           <p className="text-black mt-5 uppercase">Authentic products, crafted for the world</p>
         </div>
@@ -95,7 +95,7 @@ export default function Home() {
       </div>
       <div className="py-10">
         <div className="text-center">
-          <h3 className="text-3xl md:text-4xl font-bold capitalize text-center mb-12 lg:mb-16 inline-block relative before:content-[''] before:block before:w-12 md:before:w-16 before:h-[2px] before:bg-primary before:absolute before:top-1/2 before:-translate-y-1/2 before:right-[103%] after:content-[''] after:block after:w-12 md:after:w-16 after:h-[2px] after:bg-primary after:absolute after:top-1/2 after:-translate-y-1/2 after:left-[103%]">our certificates
+          <h3 className="text-3xl md:text-4xl font-bold capitalize text-center mb-12 lg:mb-16 inline-block relative before:content-[''] before:block before:w-12 md:before:w-14 before:h-[1px] before:bg-primary before:absolute before:top-1/2 before:-translate-y-1/2 before:right-[103%] after:content-[''] after:block after:w-12 md:after:w-14 after:h-[1px] after:bg-primary after:absolute after:top-1/2 after:-translate-y-1/2 after:left-[103%]">our certificates
           </h3>
         </div>
         <BrandSlider />

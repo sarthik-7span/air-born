@@ -59,7 +59,7 @@ const TestimonialSlider = () => {
 
             <div className="max-w-7xl mx-auto p-4 py-20 text-center testimonial-slider">
                 <div className="text-center">
-                    <h3 className="text-3xl uppercase font-bold text-black mb-4 inline-block relative before:content-[''] before:block before:w-12 md:before:w-16 before:h-[2px] before:bg-primary before:absolute before:top-1/2 before:-translate-y-1/2 before:right-[103%] after:content-[''] after:block after:w-12 md:after:w-16 after:h-[2px] after:bg-primary after:absolute after:top-1/2 after:-translate-y-1/2 after:left-[103%]">Testimonials</h3>
+                    <h3 className="text-3xl uppercase font-bold text-black mb-4 inline-block relative before:content-[''] before:block before:w-12 md:before:w-14 before:h-[1px] before:bg-primary before:absolute before:top-1/2 before:-translate-y-1/2 before:right-[103%] after:content-[''] after:block after:w-12 md:after:w-14 after:h-[1px] after:bg-primary after:absolute after:top-1/2 after:-translate-y-1/2 after:left-[103%]">Testimonials</h3>
                 </div>
                 <Slider {...settings} className="mt-8 space-x-3">
                     {testimonials.map((testimonial, index) => (

@@ -12,13 +12,13 @@ const TestimonialSlider = () => {
             image: "/assets/images/testimonial1.jpeg",
             content: "The team's outstanding service has significantly boosted my business growth with exceptional product quality!",
             role: "Entrepreneur",
-            name: "Darshan Bhanderi"
+            name: "Ishan parikh"
         },
         {
             image: "/assets/images/testimonial2.jpeg",
             content: "Working with this team has been a seamless experience. They understand the unique needs of freelancers like me.",
             role: "Freelancer",
-            name: "Ishan parikh"
+            name: "Darshan Bhanderi"
 
         },
         {

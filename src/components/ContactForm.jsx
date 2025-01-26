@@ -10,21 +10,21 @@ const ContactForm = ({ inquiryFor }) => {
       <div className="flex flex-col-reverse md:flex-row gap-10 lg:gap-24">
         <div className="flex-1 ">
           <div>
-            <span className="uppercase text-sm">Contact Now</span>
+            <span className="uppercase text-sm text-black">Contact Now</span>
             <h2 className="mb-4 uppercase text-2xl md:text-3xl tracking-tight font-bold text-gray-900">
               GET IN TOUCH NOW
             </h2>
           </div>
-          <div className="space-y-3 mt-16 xl:pr-44">
+          <div className="space-y-3 mt-16 xl:pr-44 text-black">
             <div>
-              <h4 className="text-sm font-semibold uppercase">description</h4>
-              <p className="text-base">
+              <h4 className="text-sm text-black font-semibold uppercase">description</h4>
+              <p className="text-base text-black">
                 We're here to help with any questions or inquiries. Reach out to
                 Airborne Export today! We look forward to connecting with you!
               </p>
             </div>
             <div>
-              <h4 className="text-sm font-semibold uppercase">Phone</h4>
+              <h4 className="text-sm text-black font-semibold uppercase">Phone</h4>
               <a
                 href="tel:+919537004005"
                 className="text-base text-black hover:underline"
@@ -33,7 +33,7 @@ const ContactForm = ({ inquiryFor }) => {
               </a>
             </div>
             <div>
-              <h4 className="text-sm font-semibold uppercase">Email</h4>
+              <h4 className="text-sm text-black font-semibold uppercase">Email</h4>
               <a
                 href="mailto:info@airborneexports.com"
                 className="text-base text-black hover:underline"
@@ -42,8 +42,8 @@ const ContactForm = ({ inquiryFor }) => {
               </a>
             </div>
             <div>
-              <h4 className="text-sm font-semibold uppercase">Address</h4>
-              <p className="text-base text-gray-700">
+              <h4 className="text-sm text-black font-semibold uppercase">Address</h4>
+              <p className="text-base text-black">
                 6-VRC Complex, Opp. New Bus Stand, Jasdan, Rajkot, Guj. (360050)
               </p>
             </div>

@@ -40,8 +40,8 @@ export default function Home() {
   ];
   return (
     <main>
-        <CoverSlider/>
-      <div className="relative bg-[url('/assets/images/import1.jpg')] bg-cover bg-right md:bg-center bg-no-repeat py-11 lg:py-16 before:content-['*'] before:absolute before:inset-0 before:bg-gray-50/40 before:blur-lg">
+      <CoverSlider />
+      <div className="relative md:bg-[url('/assets/images/map-bg.jpg')] bg-100-auto bg-bottom bg-no-repeat py-11 lg:py-16 before:content-['*'] before:absolute before:inset-0 before:bg-gray-50/70 before:blur-lg">
         <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8 text-center relative z-10 text-black">
           <div className="relative block text-2xl mb-10 text-left font-semibold text-black">
             Original & Trusted
@@ -56,7 +56,7 @@ export default function Home() {
               You Deserve Quality. <br />
               We Deliver Excellence Across Industries Worldwide.
             </h6>
-            <div className="font-medium text-sm space-y-4 lg:text-2xl lg:space-y-8">
+            <div className="font-medium text-sm space-y-4 lg:text-xl lg:space-y-8 italic">
               <p>
                 At Airborne Export, we take pride in being a leading merchant-based exporter, delivering the best of India's diverse and high-quality products to customers around the globe. With a deep understanding of India's rich cultural heritage and market, we source and export a wide range of products that meet international standards. From agricultural produce and spices to textiles and handicrafts, our extensive network ensures that we bring the finest Indian goods to the world.</p>
               <p>
@@ -71,7 +71,9 @@ export default function Home() {
       </div>
       <div className="py-12">
         <div className="text-center mb-10 md:mb-16 space-y-3">
-          <h2 className="text-3xl md:text-4xl font-bold">Product Range</h2>
+          <div className="text-center">
+            <h3 className="text-3xl md:text-4xl font-bold inline-block relative before:content-[''] before:block before:w-12 md:before:w-16 before:h-[2px] before:bg-primary before:absolute before:top-1/2 before:-translate-y-1/2 before:right-[103%] after:content-[''] after:block after:w-12 md:after:w-16 after:h-[2px] after:bg-primary after:absolute after:top-1/2 after:-translate-y-1/2 after:left-[103%]">Product Range</h3>
+          </div>
           <p className="text-black mt-5 uppercase">Authentic products, crafted for the world</p>
         </div>
         <div className="mx-auto max-w-7xl">
@@ -91,7 +93,11 @@ export default function Home() {
           ))}
         </div>
       </div>
-      <div className="py-12">
+      <div className="py-10">
+        <div className="text-center">
+          <h3 className="text-3xl md:text-4xl font-bold capitalize text-center mb-12 lg:mb-16 inline-block relative before:content-[''] before:block before:w-12 md:before:w-16 before:h-[2px] before:bg-primary before:absolute before:top-1/2 before:-translate-y-1/2 before:right-[103%] after:content-[''] after:block after:w-12 md:after:w-16 after:h-[2px] after:bg-primary after:absolute after:top-1/2 after:-translate-y-1/2 after:left-[103%]">our certificates
+          </h3>
+        </div>
         <BrandSlider />
       </div>
       <ContactForm />

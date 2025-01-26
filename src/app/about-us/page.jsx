@@ -15,57 +15,46 @@ const page = () => {
     };
     return (
         <>
-            <section className="mx-auto max-w-7xl py-12 px-4 sm:px-8 lg:px-16">
-                <div className="text-center mb-8">
-                    <h2 className="text-3xl font-bold text-primary mb-4">ABOUT US</h2>
-                    <p className="text-gray-700">
-                        Welcome to Inspiring Infotech — your trusted partner for innovative digital solutions. Our
-                        team of skilled professionals specializes in delivering top-notch web development, digital
-                        marketing, and graphic design services to empower businesses with a strong and impactful
-                        online presence.
-                    </p>
-                </div>
-
-                <div className="flex flex-col lg:flex-row gap-8 mb-12">
-                    <div className="flex-1 text-gray-700">
-                        <ul className="list-disc list-inside space-y-2">
-                            <li>Tailored solutions designed to meet your unique business objectives.</li>
-                            <li>A passionate team committed to delivering exceptional results.</li>
-                            <li>Excellence in quality, attention to detail, and outstanding customer service.</li>
-                        </ul>
+            <section className="bg-gray-100">
+                <div className='mx-auto max-w-7xl py-12 px-4 sm:px-8 lg:px-16'>
+                    <div className="container mx-auto py-10 px-4">
+                        <div className="grid relative grid-cols-1 lg:grid-cols-2 items-start justify-between gap-16">
+                            <div className="text-center lg:before:content-[''] lg:before:absolute lg:before:left-1/2 lg:before:transform lg:before:-translate-x-1/2 lg:before:top-0 lg:before:h-full lg:before:w-[1px] lg:before:bg-primary/10">
+                                <div className="text-center">
+                                    <h3 className="text-3xl font-bold text-black mb-4 inline-block relative before:content-[''] before:block before:w-12 md:before:w-16 before:h-[2px] before:bg-primary before:absolute before:top-1/2 before:-translate-y-1/2 before:right-[103%] after:content-[''] after:block after:w-12 md:after:w-16 after:h-[2px] after:bg-primary after:absolute after:top-1/2 after:-translate-y-1/2 after:left-[103%]">What We Are</h3>
+                                </div>
+                                <p className="text-gray-600 text-left lg:text-center">
+                                    <strong>Airborne Exports</strong> is a certified Indian export business committed to delivering the finest Indian products to customers across the globe. Driven by a vision to connect India’s rich and diverse offerings with international markets, we specialize in meeting global demands with <strong>quality and reliability</strong>.
+                                </p>
+                            </div>
+                            <div className="text-center">
+                                <div className="text-center">
+                                    <h3 className="text-3xl font-bold text-black mb-4 inline-block relative before:content-[''] before:block before:w-12 md:before:w-16 before:h-[2px] before:bg-primary before:absolute before:top-1/2 before:-translate-y-1/2 before:right-[103%] after:content-[''] after:block after:w-12 md:after:w-16 after:h-[2px] after:bg-primary after:absolute after:top-1/2 after:-translate-y-1/2 after:left-[103%]">What We Serve</h3>
+                                </div>
+                                <p className="text-gray-600 text-left lg:text-center mb-4">We export a wide range of premium Indian products, including:</p>
+                                <ul className="list-disc text-left list-inside text-gray-600">
+                                    <li>
+                                        <strong>Spices:</strong> Authentic and aromatic Indian spices.
+                                    </li>
+                                    <li>
+                                        <strong>Vegetables:</strong> Fresh and farm-grown produce.
+                                    </li>
+                                    <li>
+                                        <strong>Agricultural Products:</strong> High-quality grains, pulses, and more.
+                                    </li>
+                                </ul>
+                                <p className="text-gray-600 mt-4 text-left">
+                                    Our services cater specifically to importers worldwide, offering products customized to your needs with guaranteed excellence.
+                                </p>
+                            </div>
+                        </div>
                     </div>
-                    <div className="flex-1 text-gray-700">
-                        <p>
-                            Whether you need a cutting-edge website, a refined digital marketing strategy, or
-                            eye-catching graphic designs, we have the expertise to bring your vision to life. Our
-                            mission is to help you achieve measurable growth and take your business to new heights.
-                        </p>
+                    <div className='text-center'>
+
                         <button onClick={handleScroll}
                             className="mt-4 px-6 py-2 bg-primary text-white rounded-md hover:bg-blue-900">
                             Get in Touch
                         </button>
-                    </div>
-                </div>
-
-                <div className="text-left">
-                    <div className="mb-6">
-                        <h3 className="text-2xl font-medium text-gray-800 mb-2">Our Mission</h3>
-                        <p className="text-gray-700">
-                            Our mission is to empower businesses of all sizes with innovative digital solutions that
-                            foster growth and enhance online presence. We aim to provide affordable, high-quality
-                            web development, digital marketing, and graphic design services that drive results and
-                            contribute to the success of our clients.
-                        </p>
-                    </div>
-
-                    <div>
-                        <h3 className="text-2xl font-medium text-gray-800 mb-2">Our Vision</h3>
-                        <p className="text-gray-700">
-                            Our vision is to be a leading digital solutions provider recognized for our creativity,
-                            technical expertise, and customer-centric approach. We aspire to be a trusted partner
-                            for businesses seeking innovative solutions that help them stay ahead in a rapidly
-                            changing digital landscape.
-                        </p>
                     </div>
                 </div>
             </section>

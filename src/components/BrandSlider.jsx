@@ -15,7 +15,7 @@ export default function BrandSlider() {
         slidesToScroll: 1,
         centerMode: true,
         autoplay: true,
-        autoplaySpeed: 2000,
+        autoplaySpeed: 4000,
         centerPadding: '60px',
 
         responsive: [

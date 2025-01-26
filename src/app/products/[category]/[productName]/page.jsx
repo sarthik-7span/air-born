@@ -5,7 +5,7 @@ import ContactForm from "@/components/ContactForm";
 import product from "@/data/products.json";
 
 const ProductDescription = ({ descriptions }) => (
-    <div className="text-left md:text-center text-lg space-y-5 mt-12 lg:mt-16">
+    <div className="text-left md:text-center text-lg space-y-5 mt-12 lg:mt-16 italic">
         {descriptions.map((desc, index) => (
             <p key={index} className="text-gray-700 leading-relaxed">{desc}</p>
         ))}
@@ -82,14 +82,16 @@ export default function Product({ params }) {
 
     return (
         <main>
-            <section className="bg-[url('/assets/images/product-cover.jpg')] py-24 md:py-36 bg-no-repeat bg-cover">
+            <section className="bg-[url('/assets/images/product-cover.jpg')] py-16 lg:py-20 bg-no-repeat bg-cover">
                 <h1 className="px-4 mx-auto text-3xl md:text-4xl max-w-7xl text-center font-semibold text-black uppercase">
                     Products
                 </h1>
             </section>
             <section>
                 <div className="bg-white py-10 p-4 mx-auto max-w-7xl">
-                    <h1 className="text-2xl font-bold text-center mb-6 capitalize lg:text-4xl">{title}</h1>
+                    <div className="text-center">
+                        <h1 className="text-2xl font-bold text-center mb-8 lg:mb-16 capitalize lg:text-4xl inline-block relative before:content-[''] before:block before:w-12 md:before:w-16 before:h-[2px] before:bg-primary before:absolute before:top-1/2 before:-translate-y-1/2 before:right-[103%] after:content-[''] after:block after:w-12 md:after:w-16 after:h-[2px] after:bg-primary after:absolute after:top-1/2 after:-translate-y-1/2 after:left-[103%]">{title}</h1>
+                    </div>
                     <div className="flex flex-col lg:flex-row gap-10 lg:gap-20 items-center">
                         <div className={`w-full ${details || healthBenefits ? "flex justify-center lg:w-1/2" : "max-w-md mx-auto"}`}>
                             <div className="p-4 border-2 border-gray-300 rounded-lg w-full">

@@ -8,144 +8,183 @@ import { usePathname } from "next/navigation";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [hoveredCategory, setHoveredCategory] = useState(null); // Tracks currently hovered category (desktop)
-  const [isHovring, setIsHovring] = useState(false); // Tracks hover state for desktop dropdown
-  const [isMobileProductsOpen, setIsMobileProductsOpen] = useState(false); // Tracks dropdown state for Products in mobile
+  const [hoveredCategory, setHoveredCategory] = useState(null);
+  const [isHovring, setIsHovring] = useState(false);
+  const [isMobileProductsOpen, setIsMobileProductsOpen] = useState(false);
   const [isIndex, setIsIndex] = useState(null);
   const [isActive, setIsActive] = useState(null);
   const currentPath = usePathname();
 
   const whole_spices = [
     {
-      name: "Whole Chili"
+      name: "Whole Chili",
+      image: "whole-chilli.png"
     },
     {
-      name: "Turmeric"
+      name: "Turmeric",
+      image: "turmeric.png"
     },
     {
-      name: "Cloves"
+      name: "Cloves",
+      image: "cloves.png"
     },
     {
-      name: "Black Pepper"
+      name: "Black Pepper",
+      image: "black-pepper.png"
     },
     {
-      name: "Dry Ginger"
+      name: "Dry Ginger",
+      image: "dry-ginger.png"
     },
     {
-      name: "Star Anise"
+      name: "Star Anise",
+      image: "star-anis.png"
     }
-  ];
+  ]
   const ground_spices = [
     {
-      name: "Chili Powder"
+      name: "Chili Powder",
+      image: "chili-powder.png"
     },
     {
-      name: "Cumin Powder"
+      name: "Cumin Powder",
+      image: "cumin-powder.png"
     },
     {
-      name: "Coriander Powder"
+      name: "Coriander Powder",
+      image: "coriander.png"
     },
     {
-      name: "Turmeric Powder"
+      name: "Turmeric Powder",
+      image: "turmerics.png"
     },
     {
-      name: "Ginger Powder"
+      name: "Ginger Powder",
+      image: "ginger.png"
     },
     {
-      name: "Garlic Powder"
+      name: "Garlic Powder",
+      image: "garlic-powder.png"
     },
     {
-      name: "Cinnamon"
+      name: "Cinnamon",
+      image: "cinnamon.png"
     },
     {
-      name: "Onion Powder"
+      name: "Onion Powder",
+      image: "onion-powder.png"
     },
     {
-      name: "Banana Powder"
+      name: "Banana Powder",
+      image: "banana-powder.png"
     }
-  ];
+  ]
   const seeds = [
     {
-      name: "Cumin"
+      name: "Cumin",
+      image: "cumin.png"
     },
     {
-      name: "White Sesame"
+      name: "White Sesame",
+      image: "white-sesame.png"
     },
     {
-      name: "Black Sesame"
+      name: "Black Sesame",
+      image: "black-sesame.png"
     },
     {
-      name: "Coriander"
+      name: "Coriander",
+      image: "coriander.png"
     }
-  ];
+  ]
   const millets_and_grains = [
     {
-      name: "Wheat"
+      name: "Wheat",
+      image: "wheat.png"
     },
     {
-      name: "Cotton"
+      name: "Cotton",
+      image: "cotton.png"
     },
     {
-      name: "Basmati Rice"
+      name: "Basmati Rice",
+      image: "basmati.png"
     },
     {
-      name: "Non-Basmati Rice"
+      name: "Non-Basmati Rice",
+      image: "non-basmati.png"
     },
     {
-      name: "Groundnuts"
+      name: "Groundnuts",
+      image: "groung-nut.png"
     },
     {
-      name: "Corn"
+      name: "Corn",
+      image: "corn.png"
     },
     {
-      name: "Soybean"
-    },
-  ];
+      name: "Soybean",
+      image: "soyabean.png"
+    }
+  ]
   const pulses = [
     {
-      name: "White Chickpeas"
+      name: "White Chickpeas",
+      image: "white-chickpeas.png"
     },
     {
-      name: "Brown Chickpeas"
-    },
-  ];
+      name: "Brown Chickpeas",
+      image: "brown-chickpeas.png"
+    }
+  ]
   const vegetables = [
     {
-      name: "Carrot"
+      name: "Carrot",
+      image: "carrot.png"
     },
     {
-      name: "Garlic"
+      name: "Garlic",
+      image: "garlic.png"
     },
     {
-      name: "Potato"
+      name: "Potato",
+      image: "potato.png"
     },
     {
-      name: "Tomato"
+      name: "Tomato",
+      image: "tamato.png"
     },
     {
-      name: "Onion"
+      name: "Onion",
+      image: "onion.png"
     },
     {
-      name: "Cabbage"
+      name: "Cabbage",
+      image: "cabbage.png"
     }
-  ];
+  ]
   const fruits = [
     {
-      name: "Mango"
+      name: "Mango",
+      image: "mango.png"
     },
     {
-      name: "Banana"
+      name: "Banana",
+      image: "banana.png"
     },
     {
-      name: "Orange"
+      name: "Orange",
+      image: "orange.png"
     },
     {
-      name: "Pineapple"
+      name: "Pineapple",
+      image: "pineapple.png"
     },
     {
-      name: "Watermelon"
+      name: "Watermelon",
+      image: "watermelon.png"
     }
-  ];
+  ]
 
 
   const categories = [
@@ -170,12 +209,12 @@ const Header = () => {
 
   return (
     <header className="bg-white shadow-md sticky z-50 top-0">
-      <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+      <div className="px-4 py-1 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <nav className="flex items-center justify-between h-16 lg:h-20">
           <div className="flex-shrink-0">
             <Link href="/" className="flex">
               <Image
-                className="w-auto h-8 lg:h-10"
+                className="w-auto h-14 md:h-16"
                 src={Logo}
                 alt="Airborne Exports Logo"
               />
@@ -266,8 +305,9 @@ const Header = () => {
                             <li
                               key={sub.name}
                             >
-                              <Link className="inline-block pl-8 hover:bg-gray-200 py-1.5 hover:text-blue-600 duration-200 w-full" href={`/products/${category.name.trim().toLowerCase().replace(/\s+/g, '-')}/${sub.name.trim().toLowerCase().replace(/\s+/g, '-')}`}
+                              <Link className="inline-flex items-center gap-2 pl-8 hover:bg-gray-200 py-1.5 hover:text-blue-600 duration-200 w-full" href={`/products/${category.name.trim().toLowerCase().replace(/\s+/g, '-')}/${sub.name.trim().toLowerCase().replace(/\s+/g, '-')}`}
                                 key={index}>
+                                <Image className="mix-blend-multiply" alt={sub.name} src={`/assets/icons/${sub.image}`} width={25} height={25} />
                                 {sub.name}
                               </Link>
                             </li>
@@ -386,8 +426,9 @@ const Header = () => {
                                         .toLowerCase()
                                         .replace(/\s+/g, "-")}`}
                                       onClick={() => { setIsMenuOpen(false); setIsActive(sub.name) }}
-                                      className={`pl-8 py-1 block text-sm text-gray-800 hover:text-blue-600 ${sub.name === isActive ? 'bg-blue-200' : ''}`}
+                                      className={`pl-6 flex items-center gap-2 py-1.5 text-sm text-gray-800 hover:text-blue-600 ${sub.name === isActive ? 'bg-blue-200' : ''}`}
                                     >
+                                      <Image className="mix-blend-multiply" alt={sub.name} src={`/assets/icons/${sub.image}`} width={25} height={25} />
                                       {sub.name}
                                     </Link>
                                   </li>

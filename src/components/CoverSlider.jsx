@@ -35,7 +35,7 @@ export default function CoverSlider() {
     useEffect(() => {
         const interval = setInterval(() => {
             setCurrentSlide((prev) => (prev + 1) % slides.length);
-        }, 5000);
+        }, 8000);
 
         return () => clearInterval(interval);
     }, []);
@@ -43,7 +43,7 @@ export default function CoverSlider() {
     return (
         <div className="relative">
             <div
-                className="py-20 lg:py-36 overflow-hidden relative h-[400px] lg:h-[700px]"
+                className="py-20 overflow-hidden relative h-[400px] lg:h-[600px]"
                 style={{ position: "relative" }}
             >
                 {slides.map((slide, index) => (
@@ -57,32 +57,32 @@ export default function CoverSlider() {
                             backgroundPosition: "center",
                         }}
                     >
-                        {/* Background Overlay */}
                         <div className="absolute inset-0 bg-gray-900/50 z-10"></div>
-
-                        {/* Text Content */}
-                        <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8 relative z-20">
+                        <div className="px-6 mx-auto max-w-7xl sm:px-8 relative z-20">
                             <div
-                                className={`md:w-2/3 lg:w-3/4 text-white transition-all duration-1000 ${currentSlide === index
-                                        ? "animate-fadeInUp"
-                                        : "opacity-0"
-                                    }`}
+                                className={`text-white transition-all duration-1000 ${currentSlide === index
+                                    ? "animate-fadeInUp"
+                                    : "opacity-0"
+                                    } ${index % 2 === 1 ? "!ml-auto text-right xl:w-3/4" : "md:w-2/3 lg:w-3/4"}`}
                             >
                                 <h1
-                                    className={`text-4xl font-semibold lg:text-7xl transition-transform duration-700 ${currentSlide === index
-                                            ? "translate-y-0 opacity-100"
-                                            : "translate-y-10 opacity-0"
+                                    className={`text-2xl sm:text-3xl md:text-4xl font-semibold lg:text-7xl transition-transform duration-700 ${currentSlide === index
+                                        ? "translate-y-0 opacity-100"
+                                        : "translate-y-10 opacity-0"
                                         }`}
                                 >
                                     {slide.title}
                                 </h1>
                                 <p
-                                    className={`text-sm mt-4 lg:text-2xl transition-transform duration-700 delay-200 ${currentSlide === index
-                                            ? "translate-y-0 opacity-100"
-                                            : "translate-y-10 opacity-0"
+                                    className={`relative text-xs sm:text-sm mt-8 lg:text-lg italic transition-transform duration-700 delay-200 ${currentSlide === index ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
                                         }`}
                                 >
-                                    {slide.description}
+                                    <span className="absolute -top-8 -left-7 leading-none text-gray-300 text-7xl">“</span>
+                                    <span className="relative z-20 block">
+
+                                        {slide.description}
+                                    </span>
+                                    <span className="absolute -bottom-16 leading-none right-0 text-gray-300 text-7xl">”</span>
                                 </p>
                             </div>
                         </div>

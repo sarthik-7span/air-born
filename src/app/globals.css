@@ -131,6 +131,10 @@ body {
   bottom: -50px;
 }
 
+.testimonial-slider .slick-track {
+  padding: 10px 0;
+}
+
 @media screen and (max-width: 1024px) {
   .Product__slider .slick-next {
     right: 44%;

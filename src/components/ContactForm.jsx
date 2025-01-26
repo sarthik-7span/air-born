@@ -4,11 +4,14 @@ const ContactForm = ({ inquiryFor }) => {
 
   return (
     <div className="px-4 mx-auto max-w-7xl py-10 md:py-16 sm:px-6 lg:px-8">
+      <div className="text-center">
+        <h3 className="text-2xl lg:text-4xl mb-8 lg:mb-16 inline-block font-bold capitalize text-center relative before:content-[''] before:block before:w-12 md:before:w-16 before:h-[2px] before:bg-primary before:absolute before:top-1/2 before:-translate-y-1/2 before:right-[103%] after:content-[''] after:block after:w-12 md:after:w-16 after:h-[2px] after:bg-primary after:absolute after:top-1/2 after:-translate-y-1/2 after:left-[103%]">Inquire here</h3>
+      </div>
       <div className="flex flex-col-reverse md:flex-row gap-10 lg:gap-24">
         <div className="flex-1 ">
           <div>
             <span className="uppercase text-sm">Contact Now</span>
-            <h2 className="mb-4 uppercase text-3xl md:text-4xl tracking-tight font-bold text-gray-900">
+            <h2 className="mb-4 uppercase text-2xl md:text-3xl tracking-tight font-bold text-gray-900">
               GET IN TOUCH NOW
             </h2>
           </div>
@@ -48,7 +51,7 @@ const ContactForm = ({ inquiryFor }) => {
         </div>
         <div className="flex-1">
           <form
-            action="https://formsubmit.co/e781f49fd4a35df31dc85db6160ed94d"
+            action="https://formsubmit.co/3f600267c213fbd8bb4dbfb05f6900e4"
             method="POST"
             className="space-y-8"
           >

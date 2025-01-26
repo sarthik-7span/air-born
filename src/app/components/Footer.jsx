@@ -11,7 +11,7 @@ const Footer = () => {
           <div>
             <Link href="/" className="flex mb-4">
               <Image
-                className="w-auto h-8 lg:h-10"
+                className="w-auto h-14 md:h-16"
                 src={Logo}
                 alt="Airborne Exports Logo"
               />

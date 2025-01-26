@@ -170,21 +170,23 @@ const Product = () => {
     },
   ];
   return (
-    <main>
-      <section className="bg-[url('/assets/images/product-banner.jpg')] py-24 md:py-36 bg-no-repeat bg-cover bg-center">
+    <main className="overflow-hidden">
+      <section className="bg-[url('/assets/images/product-banner.jpg')] py-16 lg:py-20 bg-no-repeat bg-cover bg-center">
         <h1 className="px-4 mx-auto text-3xl md:text-4xl max-w-7xl text-center font-semibold text-black uppercase">
           out products
         </h1>
       </section>
-      <section className="py-10 px-4 lg:py-24 2xl:px-24">
-        <h5 className="text-center uppercase text-black font-semibold text-3xl xl:text-5xl">
-          ground spices
-        </h5>
+      <section className="py-10 px-4 lg:py-24  mx-auto max-w-7xl">
+        <div className="text-center">
+          <h5 className="relative inline-block text-center uppercase text-black font-semibold text-3xl xl:text-4xl before:content-[''] before:block before:w-12 md:before:w-16 before:h-[2px] before:bg-primary before:absolute before:top-1/2 before:-translate-y-1/2 before:right-[103%] after:content-[''] after:block after:w-12 md:after:w-16 after:h-[2px] after:bg-primary after:absolute after:top-1/2 after:-translate-y-1/2 after:left-[103%]">
+            ground spices
+          </h5>
+        </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 lg:gap-14 mt-12">
           {products.map((product, index) => (
             <Link className="hover:scale-105 duration-500" href={`/products/category/${product.name.trim().toLowerCase().replace(/\s+/g, '-')}`}
               key={index}>
-              <div className="h-60 3xl:h-72 bg-white rounded-md overflow-hidden shadow-product border border-gray-500">
+              <div className="h-60 bg-white rounded-md overflow-hidden shadow-product border border-gray-500">
                 <img
                   src={product.image}
                   alt={product.name}
@@ -198,15 +200,17 @@ const Product = () => {
           ))}
         </div>
       </section>
-      <section className="pb-10 px-4 lg:pb-24 2xl:px-24">
-        <h5 className="text-center uppercase text-black font-semibold text-3xl xl:text-5xl">
-          whole spices
-        </h5>
+      <section className="pb-10 px-4 lg:pb-24  mx-auto max-w-7xl">
+        <div className="text-center">
+          <h5 className="relative inline-block text-center uppercase text-black font-semibold text-3xl xl:text-4xl before:content-[''] before:block before:w-12 md:before:w-16 before:h-[2px] before:bg-primary before:absolute before:top-1/2 before:-translate-y-1/2 before:right-[103%] after:content-[''] after:block after:w-12 md:after:w-16 after:h-[2px] after:bg-primary after:absolute after:top-1/2 after:-translate-y-1/2 after:left-[103%]">
+            whole spices
+          </h5>
+        </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 lg:gap-14 mt-12">
           {wholeSpices.map((product, index) => (
             <Link className="hover:scale-105 duration-500" href={`/products/category/${product.name.trim().toLowerCase().replace(/\s+/g, '-')}`}
               key={index}>
-              <div className="h-60 3xl:h-72 bg-white rounded-md overflow-hidden shadow-product border border-gray-500">
+              <div className="h-60 bg-white rounded-md overflow-hidden shadow-product border border-gray-500">
                 <img
                   src={product.image}
                   alt={product.name}
@@ -220,14 +224,17 @@ const Product = () => {
           ))}
         </div>
       </section>
-      <section className="pb-10 px-4 lg:pb-24 2xl:px-24">
-        <h5 className="text-center uppercase text-black font-semibold text-3xl xl:text-5xl">
-          others        </h5>
+      <section className="pb-10 px-4 lg:pb-24  mx-auto max-w-7xl">
+        <div className="text-center">
+          <h5 className="relative inline-block text-center uppercase text-black font-semibold text-3xl xl:text-4xl before:content-[''] before:block before:w-12 md:before:w-16 before:h-[2px] before:bg-primary before:absolute before:top-1/2 before:-translate-y-1/2 before:right-[103%] after:content-[''] after:block after:w-12 md:after:w-16 after:h-[2px] after:bg-primary after:absolute after:top-1/2 after:-translate-y-1/2 after:left-[103%]">
+            others
+          </h5>
+        </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 lg:gap-14 mt-12">
           {others.map((product, index) => (
             <Link className="hover:scale-105 duration-500" href={`/products/category/${product.name.trim().toLowerCase().replace(/\s+/g, '-')}`}
               key={index}>
-              <div className="h-60 3xl:h-72 bg-white rounded-md overflow-hidden shadow-product border border-gray-500">
+              <div className="h-60 bg-white rounded-md overflow-hidden shadow-product border border-gray-500">
                 <img
                   src={product.image}
                   alt={product.name}

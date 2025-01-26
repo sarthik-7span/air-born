@@ -31,11 +31,11 @@ export default function SlickSlider() {
   };
   const products = [
     {
-      title: "Others",
+      title: "Vegetables",
       description:
         "We export fresh fruits, vegetables, and agricultural products, ensuring top quality, natural freshness, and global standards for healthy living.",
       image: "healthy-vegetables-wooden-table-min.jpg",
-      hrefLink: "/products"
+      hrefLink: "/products/vegetables"
     },
     {
       title: "Ground Spices",

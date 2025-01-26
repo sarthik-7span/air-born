@@ -23,7 +23,8 @@ module.exports = {
         '-top-10': 'center top -10rem',
       },
       boxShadow: {
-        product: "0px 0px 15px 0px #00000099"
+        product: "0px 0px 15px 10px #00000099",
+        card: "0 0 5px #00000021"
       }
     },
   },

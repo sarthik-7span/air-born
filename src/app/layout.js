@@ -2,6 +2,7 @@ import { Poppins } from "next/font/google";
 import "./globals.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import { Whatsapp } from "@/components/Whatsapp";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -46,8 +47,6 @@ export default function RootLayout({ children }) {
         <meta name="author" content={metadata.author} />
         <meta name="robots" content={metadata.robots} />
         <meta name="theme-color" content={metadata.themeColor} />
-
-        {/* Open Graph Meta Tags */}
         <meta property="og:type" content={metadata.openGraph.type} />
         <meta property="og:url" content={metadata.openGraph.url} />
         <meta property="og:title" content={metadata.openGraph.title} />
@@ -72,6 +71,7 @@ export default function RootLayout({ children }) {
         <Header />
         {children}
         <Footer />
+        <Whatsapp />
       </body>
     </html>
   );

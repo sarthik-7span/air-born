@@ -5,7 +5,7 @@ const ContactForm = ({ inquiryFor }) => {
   return (
     <div className="px-4 mx-auto max-w-7xl py-10 md:py-16 sm:px-6 lg:px-8">
       <div className="text-center">
-        <h3 className="text-2xl lg:text-4xl mb-8 lg:mb-16 inline-block font-bold capitalize text-center relative before:content-[''] before:block before:w-12 md:before:w-14 before:h-[1px] before:bg-primary before:absolute before:top-1/2 before:-translate-y-1/2 before:right-[103%] after:content-[''] after:block after:w-12 md:after:w-14 after:h-[1px] after:bg-primary after:absolute after:top-1/2 after:-translate-y-1/2 after:left-[103%]">Inquire here</h3>
+        <h3 className="text-2xl lg:text-4xl text-black mb-8 lg:mb-16 inline-block font-bold capitalize text-center relative before:content-[''] before:block before:w-12 md:before:w-14 before:h-[1px] before:bg-primary before:absolute before:top-1/2 before:-translate-y-1/2 before:right-[103%] after:content-[''] after:block after:w-12 md:after:w-14 after:h-[1px] after:bg-primary after:absolute after:top-1/2 after:-translate-y-1/2 after:left-[103%]">Inquire here</h3>
       </div>
       <div className="flex flex-col-reverse md:flex-row gap-10 lg:gap-24">
         <div className="flex-1 ">
@@ -59,7 +59,7 @@ const ContactForm = ({ inquiryFor }) => {
               <div>
                 <label
                   htmlFor="Enquiry"
-                  className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300 capitalize"
+                  className="block mb-2 text-sm font-medium text-gray-900 capitalize"
                 >
                   Enquiry Product:
                 </label>
@@ -76,7 +76,7 @@ const ContactForm = ({ inquiryFor }) => {
             <div>
               <label
                 htmlFor="name"
-                className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300 capitalize"
+                className="block mb-2 text-sm font-medium text-gray-900 capitalize"
               >
                 Name
               </label>
@@ -92,7 +92,7 @@ const ContactForm = ({ inquiryFor }) => {
             <div>
               <label
                 htmlFor="number"
-                className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300 capitalize"
+                className="block mb-2 text-sm font-medium text-gray-900 capitalize"
               >
                 Phone Number
               </label>
@@ -108,7 +108,7 @@ const ContactForm = ({ inquiryFor }) => {
             <div>
               <label
                 htmlFor="email"
-                className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300 capitalize"
+                className="block mb-2 text-sm font-medium text-gray-900 capitalize"
               >
                 Your Email
               </label>

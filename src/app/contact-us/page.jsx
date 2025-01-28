@@ -5,7 +5,7 @@ const Product = () => {
   return (
     <main>
       <div className="relative">
-        <section className="bg-[url('/assets/images/contact.jpg')] py-16 lg:py-20 bg-no-repeat bg-cover bg-center">
+        <section className="bg-[url('/assets/images/contact.jpg')] py-16 lg:py-16 bg-no-repeat bg-cover bg-center">
           <h1 className="invisible px-4 mx-auto text-3xl md:text-4xl max-w-7xl text-center font-semibold text-white uppercase">
             Contact us
           </h1>

@@ -16,15 +16,19 @@ export default function SlickSlider() {
     slidesToScroll: 1,
     responsive: [
       {
-        breakpoint: 768,
+        breakpoint: 800,
         settings: {
           slidesToShow: 2,
+          autoplay: true,
+          autoplaySpeed: 3000,
         },
       },
       {
         breakpoint: 575,
         settings: {
           slidesToShow: 1,
+          autoplay: true,
+          autoplaySpeed: 3000,
         },
       },
     ],
@@ -56,7 +60,7 @@ export default function SlickSlider() {
     <Slider className="Product__slider" {...settings}>
       {products.map((product, index) => (
         <div key={index}>
-          <Link href={product.hrefLink} className="group flex flex-col items-center bg-white shadow-md mx-4 my-2 rounded-md overflow-hidden">
+          <Link href={product.hrefLink} className="group flex flex-col items-center bg-white shadow-md mx-4 my-2 rounded-md overflow-hidden hover:scale-[102%] duration-200">
             <img
               src={`/assets/images/${product.image}`}
               alt={product.title}

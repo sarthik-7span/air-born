@@ -13,7 +13,6 @@ export default function BrandSlider() {
         speed: 1000,
         slidesToShow: 4,
         slidesToScroll: 1,
-        centerMode: true,
         autoplay: true,
         autoplaySpeed: 4000,
         centerPadding: '60px',

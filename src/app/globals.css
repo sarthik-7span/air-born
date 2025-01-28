@@ -109,11 +109,6 @@ body {
   background-image: url(../../public/assets/icons/right-arrow.svg);
 }
 
-.brand__slider .slick-track {
-  display: flex;
-  gap: 20px;
-}
-
 .brand__slider .slick-prev {
   left: 4%;
   z-index: 40;
@@ -157,6 +152,10 @@ body {
 
   .testimonial-slider .slick-track .slick-slide {
     padding: 0 5px;
+  }
+
+  .brand__slider .slick-list {
+    padding: 0 !important;
   }
 }
 

@@ -171,18 +171,18 @@ const Product = () => {
   ];
   return (
     <main className="overflow-hidden">
-      <section className="bg-[url('/assets/images/product-banner.jpg')] py-16 lg:py-16 bg-no-repeat bg-cover bg-center">
+      <section className="bg-[url('/assets/images/product-banner.jpg')] py-10 bg-no-repeat bg-cover bg-center">
         <h1 className="px-4 mx-auto text-3xl md:text-4xl max-w-7xl text-center font-semibold text-black uppercase">
           out products
         </h1>
       </section>
-      <section className="py-10 px-4 lg:py-16 mx-auto max-w-7xl">
+      <section className="py-10 px-4 lg:py-14 lg:pb-20 mx-auto max-w-7xl">
         <div className="text-center">
           <h5 className="relative inline-block text-center uppercase text-black font-semibold text-3xl xl:text-4xl before:content-[''] before:block before:w-12 md:before:w-14 before:h-[1px] before:bg-primary before:absolute before:top-1/2 before:-translate-y-1/2 before:right-[103%] after:content-[''] after:block after:w-12 md:after:w-14 after:h-[1px] after:bg-primary after:absolute after:top-1/2 after:-translate-y-1/2 after:left-[103%]">
             ground spices
           </h5>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 lg:gap-14 mt-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 lg:gap-14 mt-14 lg:mt-8">
           {products.map((product, index) => (
             <Link className="hover:scale-105 duration-500" href={`/products/category/${product.name.trim().toLowerCase().replace(/\s+/g, '-')}`}
               key={index}>
@@ -200,13 +200,13 @@ const Product = () => {
           ))}
         </div>
       </section>
-      <section className="pb-10 px-4 lg:pb-24  mx-auto max-w-7xl">
+      <section className="pb-10 px-4 lg:pb-20  mx-auto max-w-7xl">
         <div className="text-center">
           <h5 className="relative inline-block text-center uppercase text-black font-semibold text-3xl xl:text-4xl before:content-[''] before:block before:w-12 md:before:w-14 before:h-[1px] before:bg-primary before:absolute before:top-1/2 before:-translate-y-1/2 before:right-[103%] after:content-[''] after:block after:w-12 md:after:w-14 after:h-[1px] after:bg-primary after:absolute after:top-1/2 after:-translate-y-1/2 after:left-[103%]">
             whole spices
           </h5>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 lg:gap-14 mt-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 lg:gap-14 mt-14 lg:mt-8">
           {wholeSpices.map((product, index) => (
             <Link className="hover:scale-105 duration-500" href={`/products/category/${product.name.trim().toLowerCase().replace(/\s+/g, '-')}`}
               key={index}>
@@ -224,13 +224,13 @@ const Product = () => {
           ))}
         </div>
       </section>
-      <section className="pb-10 px-4 lg:pb-24  mx-auto max-w-7xl">
+      <section className="pb-10 px-4 lg:pb-20  mx-auto max-w-7xl">
         <div className="text-center">
           <h5 className="relative inline-block text-center uppercase text-black font-semibold text-3xl xl:text-4xl before:content-[''] before:block before:w-12 md:before:w-14 before:h-[1px] before:bg-primary before:absolute before:top-1/2 before:-translate-y-1/2 before:right-[103%] after:content-[''] after:block after:w-12 md:after:w-14 after:h-[1px] after:bg-primary after:absolute after:top-1/2 after:-translate-y-1/2 after:left-[103%]">
             others
           </h5>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 lg:gap-14 mt-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 lg:gap-14 mt-14 lg:mt-8">
           {others.map((product, index) => (
             <Link className="hover:scale-105 duration-500" href={`/products/category/${product.name.trim().toLowerCase().replace(/\s+/g, '-')}`}
               key={index}>

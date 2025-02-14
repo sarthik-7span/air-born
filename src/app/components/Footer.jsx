@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div>
             <Link href="/" className="flex mb-4">
-              <Image
+              <Image loading="lazy"
                 className="w-auto h-14 md:h-16"
                 src={Logo}
                 alt="Airborne Exports Logo"

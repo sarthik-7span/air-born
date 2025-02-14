@@ -9,25 +9,25 @@ import Image from "next/image";
 const WhyChooseUs = () => {
     const features = [
         {
-            icon: <Image alt="Industry icon" className="w-full h-full object-contain object-center" src={ExpertIcon} />,
+            icon: <Image loading="lazy" alt="Industry icon" className="w-full h-full object-contain object-center" src={ExpertIcon} />,
             title: "Expertise",
             description:
                 "We bring years of experience and in-depth knowledge of Indian exports, ensuring smooth international transactions.",
         },
         {
-            icon: <Image alt="Quality icon" className="w-full h-full object-contain object-center" src={QualityIcon} />,
+            icon: <Image loading="lazy" alt="Quality icon" className="w-full h-full object-contain object-center" src={QualityIcon} />,
             title: "Quality",
             description:
                 "Our products undergo stringent quality checks to meet international standards.",
         },
         {
-            icon: <Image alt="Certificate icon" className="w-full h-full object-contain object-center" src={NewsIcon} />,
+            icon: <Image loading="lazy" alt="Certificate icon" className="w-full h-full object-contain object-center" src={NewsIcon} />,
             title: "Certifications",
             description:
                 "As a fully certified exporter in India with comprehensive export licenses, we are trusted by businesses worldwide.",
         },
         {
-            icon: <Image alt="Recycle icon" className="w-full h-full object-contain object-center" src={PricingIcon} />,
+            icon: <Image loading="lazy" alt="Recycle icon" className="w-full h-full object-contain object-center" src={PricingIcon} />,
             title: "Competitive Pricing",
             description:
                 "We provide exceptional value, balancing quality and affordability.",
@@ -42,7 +42,7 @@ const WhyChooseUs = () => {
                 </div>
                 <div className="text-gray-700 flex gap-2 justify-center items-center">
                     <div className="w-6 h-6 flex justify-center items-center">
-                        <Image alt="message icon" className="w-full h-full object-contain object-center" src={MessageIcon} />
+                        <Image loading="lazy" alt="message icon" className="w-full h-full object-contain object-center" src={MessageIcon} />
                     </div>
                     24/7 Dedicated Support
                 </div>
@@ -67,7 +67,7 @@ const WhyChooseUs = () => {
                 </div>
 
                 <div className="hidden lg:block flex-1">
-                    <Image alt="Communication" src={CommunicationIcon} />
+                    <Image loading="lazy" alt="Communication" src={CommunicationIcon} />
                 </div>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-12 flex-1">

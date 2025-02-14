@@ -187,7 +187,7 @@ const Product = () => {
             <Link className="hover:scale-105 duration-500" href={`/products/category/${product.name.trim().toLowerCase().replace(/\s+/g, '-')}`}
               key={index}>
               <div className="h-60 bg-white rounded-md overflow-hidden shadow-product border border-gray-500">
-                <img
+                <img loading="lazy"
                   src={product.image}
                   alt={product.name}
                   className="w-full h-full object-cover"
@@ -211,7 +211,7 @@ const Product = () => {
             <Link className="hover:scale-105 duration-500" href={`/products/category/${product.name.trim().toLowerCase().replace(/\s+/g, '-')}`}
               key={index}>
               <div className="h-60 bg-white rounded-md overflow-hidden shadow-product border border-gray-500">
-                <img
+                <img loading="lazy"
                   src={product.image}
                   alt={product.name}
                   className="w-full h-full object-cover"
@@ -235,7 +235,7 @@ const Product = () => {
             <Link className="hover:scale-105 duration-500" href={`/products/category/${product.name.trim().toLowerCase().replace(/\s+/g, '-')}`}
               key={index}>
               <div className="h-60 bg-white rounded-md overflow-hidden shadow-product border border-gray-500">
-                <img
+                <img loading="lazy"
                   src={product.image}
                   alt={product.name}
                   className="w-full h-full object-cover"

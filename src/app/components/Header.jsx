@@ -213,7 +213,7 @@ const Header = () => {
         <nav className="flex items-center justify-between h-16 lg:h-20">
           <div className="flex-shrink-0">
             <Link href="/" className="flex">
-              <Image
+              <Image loading="lazy"
                 className="w-auto h-14 md:h-16"
                 src={Logo}
                 alt="Airborne Exports Logo"
@@ -307,7 +307,7 @@ const Header = () => {
                             >
                               <Link className="inline-flex items-center gap-2 pl-8 hover:bg-gray-200 py-1.5 hover:text-blue-600 duration-200 w-full" href={`/products/${category.name.trim().toLowerCase().replace(/\s+/g, '-')}/${sub.name.trim().toLowerCase().replace(/\s+/g, '-')}`}
                                 key={index}>
-                                <Image className="mix-blend-multiply" alt={sub.name} src={`/assets/icons/${sub.image}`} width={25} height={25} />
+                                <Image loading="lazy" className="mix-blend-multiply" alt={sub.name} src={`/assets/icons/${sub.image}`} width={25} height={25} />
                                 {sub.name}
                               </Link>
                             </li>
@@ -428,7 +428,7 @@ const Header = () => {
                                       onClick={() => { setIsMenuOpen(false); setIsActive(sub.name) }}
                                       className={`pl-6 flex items-center gap-2 py-1.5 text-sm text-gray-800 hover:text-blue-600 ${sub.name === isActive ? 'bg-blue-200' : ''}`}
                                     >
-                                      <Image className="mix-blend-multiply" alt={sub.name} src={`/assets/icons/${sub.image}`} width={25} height={25} />
+                                      <Image loading="lazy" className="mix-blend-multiply" alt={sub.name} src={`/assets/icons/${sub.image}`} width={25} height={25} />
                                       {sub.name}
                                     </Link>
                                   </li>

@@ -45,7 +45,7 @@ export default function Home() {
         <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8 text-center relative z-10 text-black">
           <div className="relative block text-2xl mb-10 text-left font-semibold text-black">
             Original & Trusted
-            <Image src={underline} className="w-52" alt="underline icon" />
+            <Image loading="lazy" src={underline} className="w-52" alt="underline icon" />
           </div>
           <h3 className="text-xl lg:leading-normal sm:text-4xl lg:text-6xl font-bold">
             Your Trusted Partner in Bringing

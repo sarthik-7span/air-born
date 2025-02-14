@@ -68,7 +68,7 @@ const TestimonialSlider = () => {
                             className="!flex shadow-md flex-col sm:flex-row items-start gap-6 p-8 rounded-md bg-gray-50"
                         >
                             <div className="flex-shrink-0 relative mx-auto sm:-ml-12 w-32 h-32 rounded-full overflow-hidden shadow-md">
-                                <Image
+                                <Image loading="lazy"
                                     src={testimonial.image}
                                     alt={testimonial.name}
                                     width={100}

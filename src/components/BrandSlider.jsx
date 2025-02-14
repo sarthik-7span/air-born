@@ -57,7 +57,7 @@ export default function BrandSlider() {
         <Slider className="brand__slider" {...settings}>
             {products.map((product, index) => (
                 <div key={index} className="h-40">
-                    <img
+                    <img loading="lazy"
                         src={`/assets/images/${product.image}`}
                         alt={product.title}
                         className="brand__image w-full h-32 object-contain duration-700"

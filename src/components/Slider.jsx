@@ -61,7 +61,7 @@ export default function SlickSlider() {
       {products.map((product, index) => (
         <div key={index}>
           <Link href={product.hrefLink} className="group flex flex-col items-center bg-white shadow-md mx-4 my-2 rounded-md overflow-hidden hover:scale-[102%] duration-200">
-            <img
+            <img loading="lazy"
               src={`/assets/images/${product.image}`}
               alt={product.title}
               className="w-full h-52 object-cover"

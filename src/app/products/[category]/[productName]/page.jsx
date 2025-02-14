@@ -95,7 +95,7 @@ export default function Product({ params }) {
                     <div className="flex flex-col lg:flex-row gap-10 lg:gap-20 items-center">
                         <div className={`w-full ${details || healthBenefits ? "flex justify-center lg:w-1/2" : "max-w-md mx-auto"}`}>
                             <div className="p-4 border-2 border-gray-300 rounded-lg w-full">
-                                <img src={image} alt={title} className="rounded-lg object-contain mx-auto w-full" />
+                                <img loading="lazy" src={image} alt={title} className="rounded-lg object-contain mx-auto w-full" />
                             </div>
                             {!details && (
                                 <div className="text-center">

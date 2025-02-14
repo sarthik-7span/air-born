@@ -219,7 +219,7 @@ const Product = ({ params }) => {
                             key={index}
                         >
                             <div className="h-60 bg-white rounded-md overflow-hidden shadow-product border border-gray-500">
-                                <img
+                                <img loading="lazy"
                                     src={product.image}
                                     alt={product.name}
                                     className="w-full h-full object-cover"

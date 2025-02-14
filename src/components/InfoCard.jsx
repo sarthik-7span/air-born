@@ -10,7 +10,7 @@ const InfoCard = ({ title, description, image, showSeparator }) => {
           : ""
           }`}
       >
-        <Image src={image} alt={title} className="w-full h-full" />
+        <Image loading="lazy" src={image} alt={title} className="w-full h-full" />
       </div>
       <div className="text-center md:text-left">
         <h4 className="text-xl">{title}</h4>
